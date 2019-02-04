@@ -152,7 +152,8 @@ public class Conexion {
     
     public static void insertar_registro_temporal(objeto_reporte obj){
         try {
-            stament = conn.prepareStatement("insert into temp_reportes_medicion values(?,?,?,?,?,?,?)");
+            //stament = conn.prepareStatement("insert into temp_reportes_medicion values(?,?,?,?,?,?,?)");
+            stament = conn.prepareStatement("insert into temp_rep_med values(?,?,?,?,?,?,?)");
             //insert into temp_reportes_medicion values('coo',234,'holis','jherson','jejeje','ajdfladj',56);
             stament.setString(1, obj.getAgente());
             stament.setInt(2, obj.getCanal());
@@ -176,12 +177,11 @@ public class Conexion {
     //truncate table 
    public static void limpiar_temp() {
         try {
-            String query = "truncate table temp_reportes_medicion";
+            String query = "truncate table temp_rep_med";
                      
             st = conn.createStatement();
             System.out.println(query);
             st.execute(query);
-
 
            /* while (rs.next()) {
                 System.out.println(rs.getString(1));

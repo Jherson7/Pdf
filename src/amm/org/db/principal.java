@@ -1,6 +1,7 @@
 package amm.org.db;
 
 import amm.org.logica.controlador;
+import amm.org.reportes.ManejadorReportes;
 import java.sql.Connection;
 
 /**
@@ -17,6 +18,7 @@ public class principal {
         Connection con = Conexion.get_con();
         controlador c = new controlador();
         c.iniciar("01/12/2018", "31/12/2018");
+        //ManejadorReportes.imprimir_carta("Jherson","AMM");
         
    
     }

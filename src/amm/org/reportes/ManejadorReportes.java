@@ -1,8 +1,10 @@
 package amm.org.reportes;
 
 import amm.org.db.Conexion;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.sql.Connection;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,13 +19,15 @@ import net.sf.jasperreports.engine.JasperReport;
 import net.sf.jasperreports.engine.export.JRPdfExporter;
 
 import net.sf.jasperreports.engine.util.JRLoader;
-import net.sf.jasperreports.view.JasperViewer;
+import org.apache.pdfbox.exceptions.COSVisitorException;
+import org.apache.pdfbox.util.PDFMergerUtility;
 
 public class ManejadorReportes {
     
     static Connection connection;//variable para poder conectarse a la DB 
     
     private final static String ruta_logo ="/amm/org/reportes/Logo.jpg";
+    private final static String ruta_logo_sub ="/amm/org/reportes/Logo_1.jpg";
     private final static String firma ="/amm/org/reportes/Firma.jpg";
     
     private static String contenido=""//contenido de la carta
@@ -60,7 +64,6 @@ public class ManejadorReportes {
      * @param mes_medicion que se realizo la medicion del script
      * @param anio_medicion que se realizo la medicion del script
      */
-    
     private static void generar_carta(String dia,
             String mes, String anio,String representante, String empresa,
             String contenido,String ruta,String mes_medicion,String anio_medicion)
@@ -70,6 +73,8 @@ public class ManejadorReportes {
         contenido =contenido.replaceAll("year", anio_medicion);//se reemplaza por el año de reporte
         
         try {
+            
+            
             JasperReport  jr= (JasperReport) JRLoader.
                    loadObject(ManejadorReportes.
                            class.getResourceAsStream("/amm/org/reportes/Reporte_medicion.jasper"));
@@ -88,21 +93,25 @@ public class ManejadorReportes {
             parametros.put("firma", ManejadorReportes.
                            class.getResourceAsStream(firma));
             
-            
-            
             JasperPrint jp;
             jp = JasperFillManager.fillReport(jr, parametros, connection);
 
-            generar_pdf(jp,"Jherson");
-
+            generar_pdf(jp,empresa);
+            
+            generar_sub_reporte(empresa,"01/11/2018","31/11/2018");
+            
+            unir_pdf(Conexion.ruta_cartas+empresa + ".pdf", Conexion.ruta_cartas+empresa+"_sub" + ".pdf");
             /*JasperViewer visor = new JasperViewer(jp,false);
             visor.setTitle("Carta de medicion");
             visor.setVisible(true);*/
+           
             
         } catch (Exception e) {
-            System.out.println(e.getLocalizedMessage());
+            System.out.println("Hubo un error pero podemos continuar :D");
+            //System.out.println(e.getLocalizedMessage());
         }
     }
+    
     
     private static void generar_pdf(JasperPrint jp,String nombre_pdf) {
         try {
@@ -118,15 +127,61 @@ public class ManejadorReportes {
         } catch (JRException ex) {
             Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
     }
     
-    public static void imprimir_carta(){
-        generar_carta("30", "enero", "2019", "Jherson Sazo", "AMM", contenido, ruta_logo,"enero","2019");
-        
+    public static void imprimir_carta(String representante, String empresa){
+        generar_carta("30", "enero", "2019", representante, empresa, contenido, ruta_logo,"enero","2019");
     }
     
+    private static void generar_sub_reporte(String empresa,String fecha_ini,String fecha_fin){
+        try {
+            JasperReport  jr= (JasperReport) JRLoader.
+                    loadObject(ManejadorReportes.
+                            class.getResourceAsStream("/amm/org/reportes/sub_reporte_medicion.jasper"));
+            
+            connection = Conexion.get_con();
+            
+            Map parametros = new HashMap();
+            parametros.put("agente", empresa);
+            parametros.put("fecha_ini", fecha_ini);
+            parametros.put("fecha_fin", fecha_fin);
+            parametros.put("img", ManejadorReportes.
+                    class.getResourceAsStream("/amm/org/reportes/logo.png"));
+
+            JasperPrint jp;
+            jp = JasperFillManager.fillReport(jr, parametros, connection);
+
+            generar_pdf(jp,empresa+"_sub");
+            
+            //eliminamos el sub
+            /*File file = new File(Conexion.ruta_cartas+empresa+"_sub" + ".pdf");
+            if (file.delete()) {
+                System.out.println("Subreporte eliminado");;
+            }*/
+            
+            
+        } catch (JRException ex) {
+            System.out.println("Hubo un error pero podemos continuar :D");
+            //Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
     
-    
+    static void unir_pdf(String ruta1,String ruta2){
+     
+        try {
+            PDFMergerUtility ut = new PDFMergerUtility();
+            ut.addSource(ruta1);
+            ut.addSource(ruta2);
+            
+            //ut.setDestinationFileName(Conexion.ruta_cartas+"Final_3" + ".pdf"); 
+            ut.setDestinationFileName(ruta1); 
+            ut.mergeDocuments();
+           
+        } catch (IOException ex) {
+            Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (COSVisitorException ex) {
+            Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
     
 }

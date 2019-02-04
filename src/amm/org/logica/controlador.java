@@ -3,12 +3,14 @@ package amm.org.logica;
 import amm.org.beans.empresa;
 import amm.org.beans.objeto_reporte;
 import amm.org.db.Conexion;
+import amm.org.reportes.ManejadorReportes;
 import java.util.LinkedList;
 
 /**
  *
  * @author jortiz
  */
+
 public class controlador {
     
     private LinkedList<empresa>listado_empresas;
@@ -67,6 +69,7 @@ public class controlador {
     private void generar_cartas_empresas(LinkedList<empresa> listado_empresas) {
          for(empresa a: listado_empresas){
             insertar_registros_temporales(a.getRegistros());
+            ManejadorReportes.imprimir_carta("Sin definir",a.empresa);
             Conexion.limpiar_temp();
             System.out.println("-------------------JE-------------------");
             //generar_carta_
@@ -81,7 +84,6 @@ public class controlador {
     private void insertar_registros_temporales(LinkedList<objeto_reporte> registros) {
         for(objeto_reporte ob:registros){
             Conexion.insertar_registro_temporal(ob);
-           
         }
     }
 
