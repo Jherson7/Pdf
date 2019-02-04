@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="55e41e4e-30f0-4c81-9714-02bae4010fd2">
+	<property name="ireport.zoom" value="0.8250000000000004"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="384"/>
+	<parameter name="dia" class="java.lang.String"/>
+	<parameter name="mes" class="java.lang.String"/>
+	<parameter name="anio" class="java.lang.String"/>
+	<parameter name="representante" class="java.lang.String"/>
+	<parameter name="empresa" class="java.lang.String"/>
+	<parameter name="contenido_carta" class="java.lang.String"/>
+	<parameter name="logo" class="java.io.InputStream"/>
+	<parameter name="firma" class="java.io.InputStream"/>
+	<queryString>
+		<![CDATA[select 1 from dual]]>
+	</queryString>
+	<field name="1" class="java.math.BigDecimal"/>
+	<background>
+		<band height="752" splitType="Immediate">
+			<image scaleImage="FillFrame">
+				<reportElement x="-30" y="-18" width="623" height="770" uuid="26d15c80-ba21-4887-a4c4-58fa4e893476"/>
+				<imageExpression><![CDATA[$P{logo}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="95" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="657" splitType="Stretch">
+			<staticText>
+				<reportElement x="54" y="85" width="73" height="20" uuid="38e9dba3-d558-4481-b7ba-38ffde588976"/>
+				<textElement>
+					<font fontName="SansSerif" size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Guatemala,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="118" y="85" width="366" height="20" uuid="4bba954c-fcba-40ae-949a-9fbd0058fe7b"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{dia}+ " de " +$P{mes} +" de " + $P{anio}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="54" y="122" width="75" height="20" uuid="40966ca5-ad3f-48f7-807b-d9eef80e7b37"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Señor (a)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="54" y="137" width="438" height="20" uuid="54631a32-9457-4929-99d7-dba75035267b"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{representante}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="54" y="153" width="438" height="20" uuid="f44aefba-53ac-4854-be34-826823fa695d"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{empresa}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="54" y="169" width="75" height="20" uuid="3a51551f-e910-4819-baa0-98c81baec21d"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Presente]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="54" y="205" width="75" height="20" uuid="5504b29d-92ae-47a0-959e-76a4d6ed98a9"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Estimado]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="53" y="236" width="449" height="214" uuid="b103a660-3c58-42d4-b4f8-0933e5227504"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="11" isBold="false" pdfEncoding="Cp1250"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{contenido_carta}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="198" y="468" width="188" height="78" uuid="212e03d5-103a-45e5-98bb-bc60630e1b64"/>
+				<imageExpression><![CDATA[$P{firma}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="54" y="451" width="75" height="20" uuid="d92aa224-c50e-4895-9694-3296c6130a1b"/>
+				<textElement>
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Atentamente,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="548" width="207" height="20" uuid="8b2cfc26-0d34-4d95-8c54-80c2d8c7c570"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="11"/>
+				</textElement>
+				<text><![CDATA[Ing. Luis Alberto Maldonado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="565" width="207" height="20" uuid="5399e7fd-5770-4017-afe6-6376490c3ef5"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" size="11" pdfEncoding="Cp1250"/>
+				</textElement>
+				<text><![CDATA[Coordinador de Medición Comercial]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
