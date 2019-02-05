@@ -2,10 +2,7 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Medicion" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="55e41e4e-30f0-4c81-9714-02bae4010fd2">
 	<property name="ireport.zoom" value="0.8250000000000004"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="547"/>
-	<parameter name="dia" class="java.lang.String"/>
-	<parameter name="mes" class="java.lang.String"/>
-	<parameter name="anio" class="java.lang.String"/>
+	<property name="ireport.y" value="10"/>
 	<parameter name="representante" class="java.lang.String"/>
 	<parameter name="empresa" class="java.lang.String"/>
 	<parameter name="contenido_carta" class="java.lang.String"/>
@@ -14,10 +11,11 @@
 	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
 		<defaultValueExpression><![CDATA["C:\\Users\\Jortiz\\Documents\\NetBeansProjects\\Reportes medicion\\src\\amm\\org\\reportes\\"]]></defaultValueExpression>
 	</parameter>
+	<parameter name="correlativo" class="java.lang.String"/>
 	<queryString>
-		<![CDATA[select 1 from dual]]>
+		<![CDATA[select concat(concat(to_char(sysdate,'DD Month'),'de '),(to_char(sysdate,'YYYY'))) as fecha from dual]]>
 	</queryString>
-	<field name="1" class="java.math.BigDecimal"/>
+	<field name="FECHA" class="java.lang.String"/>
 	<background>
 		<band height="752" splitType="Immediate">
 			<image scaleImage="FillFrame">
@@ -44,13 +42,6 @@
 				</textElement>
 				<text><![CDATA[Guatemala,]]></text>
 			</staticText>
-			<textField>
-				<reportElement x="118" y="85" width="366" height="20" uuid="4bba954c-fcba-40ae-949a-9fbd0058fe7b"/>
-				<textElement>
-					<font fontName="SansSerif" size="11"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$P{dia}+ " de " +$P{mes} +" de " + $P{anio}]]></textFieldExpression>
-			</textField>
 			<staticText>
 				<reportElement x="54" y="122" width="75" height="20" uuid="40966ca5-ad3f-48f7-807b-d9eef80e7b37"/>
 				<textElement>
@@ -118,6 +109,20 @@
 				</textElement>
 				<text><![CDATA[Coordinador de Medición Comercial]]></text>
 			</staticText>
+			<textField>
+				<reportElement x="117" y="85" width="247" height="20" uuid="cb5c771d-ccff-40e3-8536-9a7349107c34"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{FECHA}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="386" y="19" width="115" height="20" uuid="e7704186-2281-40b0-a086-9476062407ed"/>
+				<textElement textAlignment="Right">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{correlativo}]]></textFieldExpression>
+			</textField>
 		</band>
 	</detail>
 </jasperReport>

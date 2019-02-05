@@ -27,7 +27,6 @@ public class ManejadorReportes {
     static Connection connection;//variable para poder conectarse a la DB 
     
     private final static String ruta_logo ="/amm/org/reportes/Logo.jpg";
-    private final static String ruta_logo_sub ="/amm/org/reportes/Logo_1.jpg";
     private final static String firma ="/amm/org/reportes/Firma.jpg";
     
     private static String contenido=""//contenido de la carta
@@ -64,9 +63,8 @@ public class ManejadorReportes {
      * @param mes_medicion que se realizo la medicion del script
      * @param anio_medicion que se realizo la medicion del script
      */
-    private static void generar_carta(String dia,
-            String mes, String anio,String representante, String empresa,
-            String contenido,String ruta,String mes_medicion,String anio_medicion)
+    public static void generar_carta(String correlativo,String representante, String empresa,
+            String mes_medicion,String anio_medicion,String fecha_ini,String fecha_fin)
     
     {
         contenido =contenido.replaceAll("month", mes_medicion);//se reemplaza por el mes de reporte
@@ -82,14 +80,14 @@ public class ManejadorReportes {
             connection = Conexion.get_con();
             
             Map parametros = new HashMap();
-            parametros.put("dia", dia);
-            parametros.put("mes", mes);
-            parametros.put("anio", anio);
+            parametros.put("correlativo", correlativo);
+            //parametros.put("mes", mes);
+            //parametros.put("anio", anio);
             parametros.put("representante", representante);
             parametros.put("empresa", empresa);
             parametros.put("contenido_carta", contenido);
             parametros.put("logo", ManejadorReportes.
-                           class.getResourceAsStream(ruta));
+                           class.getResourceAsStream(ruta_logo));
             parametros.put("firma", ManejadorReportes.
                            class.getResourceAsStream(firma));
             
@@ -98,7 +96,7 @@ public class ManejadorReportes {
 
             generar_pdf(jp,empresa);
             
-            generar_sub_reporte(empresa,"01/11/2018","31/11/2018");
+            generar_sub_reporte(empresa,fecha_ini,fecha_fin);
             
             unir_pdf(Conexion.ruta_cartas+empresa + ".pdf", Conexion.ruta_cartas+empresa+"_sub" + ".pdf");
             /*JasperViewer visor = new JasperViewer(jp,false);
@@ -111,7 +109,6 @@ public class ManejadorReportes {
             //System.out.println(e.getLocalizedMessage());
         }
     }
-    
     
     private static void generar_pdf(JasperPrint jp,String nombre_pdf) {
         try {
@@ -127,10 +124,6 @@ public class ManejadorReportes {
         } catch (JRException ex) {
             Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
-    
-    public static void imprimir_carta(String representante, String empresa){
-        generar_carta("30", "enero", "2019", representante, empresa, contenido, ruta_logo,"enero","2019");
     }
     
     private static void generar_sub_reporte(String empresa,String fecha_ini,String fecha_fin){

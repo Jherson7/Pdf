@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5c2f1d70-f7f1-471e-a5d5-b3d180b7a584">
-	<property name="ireport.zoom" value="1.5"/>
-	<property name="ireport.x" value="184"/>
-	<property name="ireport.y" value="38"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
 	<parameter name="img" class="java.io.InputStream"/>
 	<parameter name="agente" class="java.lang.String"/>
 	<parameter name="fecha_ini" class="java.lang.String"/>
@@ -155,7 +155,7 @@ t.agente,t.canal,t.nombre,t.lectura, t.tel,t.id_gu,t.ke,user,sysdate
 				<textElement>
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{NOMBRE}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["  "+$F{NOMBRE}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="0" y="0" width="48" height="20" uuid="c878504e-3fe6-41db-96b2-e39fa6b206bb"/>
