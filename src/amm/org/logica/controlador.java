@@ -6,10 +6,11 @@ import amm.org.db.Conexion;
 import amm.org.reportes.ManejadorReportes;
 import java.io.File;
 import java.util.LinkedList;
+import org.apache.log4j.Logger;
 
 /**
  *
- * @author jortiz
+ * @author Jherson Sazo
  */
 
 public class controlador {
@@ -21,12 +22,11 @@ public class controlador {
     private String fecha_inicio;
     private String fecha_fin;
     
+    private static final Logger log = Logger.getLogger(controlador.class);
     
-    
-    
-
     public controlador() {
         this.listado_empresas = new LinkedList<>();
+        log.info("Se inicio el controlador");
     }
 
     public void iniciar(String correlativo,String mes_med,String anio_med,String inicio, String fin) {
@@ -38,11 +38,13 @@ public class controlador {
         this.fecha_inicio =inicio;
         
         
+        log.info("Se inicio la obtencion de empresas");
         llenar_empresas(Conexion.get_reporte_por_fechas(inicio, fin));
         
         
         
         if (listado_empresas.size() > Conexion.no_max_medicion) {
+            log.info("El numero de registros es mayor al maximo asignado");
             //se envia un correo a los representantes de AMM ya que hay un error
         } 
     //else {
@@ -52,7 +54,7 @@ public class controlador {
             llenar_representantes_empresas(listado_empresas);
             llenar_correos_empresas(listado_empresas);
             generar_cartas_empresas(listado_empresas);
-            //enviar_cartas_empresas(listado_empresas);
+            enviar_cartas_empresas(listado_empresas);
 
       //  }
       
@@ -83,12 +85,14 @@ public class controlador {
     }
 
     private void llenar_representantes_empresas(LinkedList<empresa> listado_empresas) {
+        log.info("Agrupacion de registros por empresas");
         for(empresa a: listado_empresas){
             Conexion.get_representante_empresa(a.getEmpresa(), a);
         }
     }
 
     private void llenar_correos_empresas(LinkedList<empresa> listado_empresas) {
+        log.info("Llenado de correos por empresas");
         for(empresa a: listado_empresas){
             a.setCorreos(Conexion.get_correos_representantes(a.getCod_rep()));
         }
@@ -97,6 +101,7 @@ public class controlador {
     private void generar_cartas_empresas(LinkedList<empresa> listado_empresas) {
          
         for(empresa a: listado_empresas){
+            log.info("Generacion de cartas para: "+a.empresa);
             insertar_registros_temporales(a.getRegistros());
             ManejadorReportes.generar_carta(this.correlativo,"Sin definir",a.empresa,this.mes_medicion,this.anio_medicion,this.fecha_inicio, this.fecha_fin);
             Conexion.limpiar_temp();
@@ -113,22 +118,37 @@ public class controlador {
     }
     
     private void enviar_cartas_empresas(LinkedList<empresa> listado_empresas) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         for(empresa a: listado_empresas){
+             String correos ="";
+             for(String correo : a.getCorreos()){
+                 if(correos.equals(""))
+                     correos=correo;
+                 else
+                    correos+=";"+correo;
+             }
+             System.out.println(correos);
+             Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", "test.pdf",a.empresa);
+         }
     }
 
     private void crear_directorio_cartas(String anio_med, String mes_med) {
+        log.info("Creacion del directorio para cartas: "+Conexion.ruta_cartas+anio_med+"/"+mes_med);
         String ruta_ =Conexion.ruta_cartas+anio_med+"/"+mes_med;
-        File tmpDir = new File(ruta_);
         
+        File tmpDir = new File(ruta_);
+        //
         if(!tmpDir.exists()){
             try{
                 tmpDir.mkdirs();
-                Conexion.ruta_cartas=ruta_+"/";//cambio la ruta para que ahi se guarden todas las cartas
+                //cambiar la ruta por defecto en 
+                //oracle para el envio de cartas
             }catch(Exception e){
                 System.out.println("Error al crear el directorio");
             }
         }
+        
+        Conexion.ruta_cartas=ruta_+"/";//cambio la ruta para que ahi se guarden todas las cartas
+        Conexion.modificar_registro_temporal(Conexion.ruta_cartas);
     }
 
-    
 }

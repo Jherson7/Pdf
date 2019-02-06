@@ -7,6 +7,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import org.apache.log4j.Logger;
 
 /**
  *
@@ -14,15 +15,21 @@ import java.util.Date;
  */
 public class principal {
 
+    private static final Logger log = Logger.getLogger(principal.class);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        log.info("Se inicio el proceso **************REPORTES DE MEDICION**************");
         Connection con = Conexion.get_con();          //al llamar al metodo get_con, se inicializa la conexion
                                                       //se carga el archivo properties necesario para generar las 
                                                       //cartas.
+       
+        //Conexion.modificar_registro_temporal("SAazo");
         
+                                                     
         controlador c = new controlador();            //instancia de controlador que realiza todo el proceso
         Date fecha_actual = new Date();               //varible para obtener la fecha actual y tomar valores.
         int fecha_medicion =fecha_actual.getMonth()-1;//obtengo el mes actual y le resto 1, con esto 
@@ -39,6 +46,7 @@ public class principal {
         System.out.println("Fin: "+fechas[1]);
         c.iniciar(correlativo,get_month(fecha_medicion),anio_medicion,fechas[0], fechas[1]);
         //ManejadorReportes.generar_carta(correlativo,"Jherson","AMM",get_month(fecha_medicion),anio_medicion,fechas[0],fechas[1]);
+
     }
     
     private static String get_month(int val) {

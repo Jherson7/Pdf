@@ -53,13 +53,11 @@ public class ManejadorReportes {
     
     
     /**
-     * @param dia de generacion de carta
+     * @param correlativo para generar la carta
      * @param mes (nombre) de generacion
-     * @param anio de generacion
      * @param a quien va dirigida la carta
      * @param empresa para quien labora
      * @param contenido de la carta debe estar en html
-     * @param ruta del fondo de la carta, debe ser tamaño carta
      * @param mes_medicion que se realizo la medicion del script
      * @param anio_medicion que se realizo la medicion del script
      */
@@ -120,9 +118,11 @@ public class ManejadorReportes {
             exporter.exportReport();
             
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("ERROR al generar el PDF");
+            //Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
         } catch (JRException ex) {
-            Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("ERROR al generar el PDF");
+            //Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     

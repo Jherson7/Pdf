@@ -1,0 +1,1296 @@
+ INFO 2019-02-06 09:50:27,641 amm.org.db.principal (principal.java:main:25) - Se inicio el proceso **************REPORTES DE MEDICION**************
+ INFO 2019-02-06 09:50:27,647 amm.org.db.Conexion (Conexion.java:iniciar_propiedades:78) - Carga de los parametros del archivo properties de la BD
+ INFO 2019-02-06 09:50:28,431 amm.org.db.Conexion (Conexion.java:get_con:50) - Conectado a Base de Datos
+ INFO 2019-02-06 09:50:28,433 amm.org.logica.controlador (controlador.java:<init>:29) - Se inicio el controlador
+ INFO 2019-02-06 09:50:28,437 amm.org.logica.controlador (controlador.java:iniciar:41) - Se inicio la obtencion de empresas
+ INFO 2019-02-06 09:52:27,253 amm.org.db.Conexion (Conexion.java:get_reporte_por_fechas:103) - Obtencion del reporte de medicion
+ INFO 2019-02-06 09:52:27,255 amm.org.db.Conexion (Conexion.java:get_reporte_por_fechas:104) - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+ INFO 2019-02-06 09:52:27,258 amm.org.logica.controlador (controlador.java:iniciar:47) - El numero de registros es mayor al maximo asignado
+ INFO 2019-02-06 09:52:27,259 amm.org.logica.controlador (controlador.java:crear_directorio_cartas:135) - Creacion del directorio para cartas: src/reportes/2019/enero
+ INFO 2019-02-06 09:52:27,260 amm.org.db.Conexion (Conexion.java:modificar_registro_temporal:233) - Modificacion de la ruta CARTAS_MEDICION --> src/reportes/2019/enero/
+ INFO 2019-02-06 09:52:27,335 amm.org.logica.controlador (controlador.java:llenar_representantes_empresas:88) - Agrupacion de registros por empresas
+ INFO 2019-02-06 09:52:27,338 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCCELC
+ INFO 2019-02-06 09:52:27,341 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCECEE
+ INFO 2019-02-06 09:52:27,342 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOELC
+ INFO 2019-02-06 09:52:27,343 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOELG
+ INFO 2019-02-06 09:52:27,345 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOELP
+ INFO 2019-02-06 09:52:27,352 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOELU
+ INFO 2019-02-06 09:52:27,353 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOEND
+ INFO 2019-02-06 09:52:27,355 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOESD
+ INFO 2019-02-06 09:52:27,358 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOGUE
+ INFO 2019-02-06 09:52:27,361 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCOMEL
+ INFO 2019-02-06 09:52:27,363 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMCUCOE
+ INFO 2019-02-06 09:52:27,364 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMECONO
+ INFO 2019-02-06 09:52:27,366 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMIONEN
+ INFO 2019-02-06 09:52:27,369 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMMAYEL
+ INFO 2019-02-06 09:52:27,371 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMRECGE
+ INFO 2019-02-06 09:52:27,372 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de COMSOLGU
+ INFO 2019-02-06 09:52:27,375 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISDIEOC
+ INFO 2019-02-06 09:52:27,377 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISDIEOR
+ INFO 2019-02-06 09:52:27,380 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMGT
+ INFO 2019-02-06 09:52:27,383 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMGU
+ INFO 2019-02-06 09:52:27,385 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMHU
+ INFO 2019-02-06 09:52:27,388 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMJA
+ INFO 2019-02-06 09:52:27,390 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMJO
+ INFO 2019-02-06 09:52:27,392 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMPB
+ INFO 2019-02-06 09:52:27,394 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMQU
+ INFO 2019-02-06 09:52:27,396 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMRE
+ INFO 2019-02-06 09:52:27,397 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMSC
+ INFO 2019-02-06 09:52:27,399 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMSE
+ INFO 2019-02-06 09:52:27,400 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMSM
+ INFO 2019-02-06 09:52:27,401 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMSP
+ INFO 2019-02-06 09:52:27,403 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEEMZA
+ INFO 2019-02-06 09:52:27,405 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEMELG
+ INFO 2019-02-06 09:52:27,407 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de DISEMREP
+ INFO 2019-02-06 09:52:27,409 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGAAC
+ INFO 2019-02-06 09:52:27,411 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGELC
+ INFO 2019-02-06 09:52:27,415 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGLAE
+ INFO 2019-02-06 09:52:27,433 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGPIN
+ INFO 2019-02-06 09:52:27,449 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGRAL
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGROG
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRAGROP
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRCAURE
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRCOAGO
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRCOMAP
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRCONSM
+ INFO 2019-02-06 09:52:27,464 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRCORAL
+ INFO 2019-02-06 09:52:27,495 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRDELAU
+ INFO 2019-02-06 09:52:27,495 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRENENA
+ INFO 2019-02-06 09:52:27,495 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRENREA
+ INFO 2019-02-06 09:52:27,511 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRFINCO
+ INFO 2019-02-06 09:52:27,511 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRGASBI
+ INFO 2019-02-06 09:52:27,511 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRGEELP
+ INFO 2019-02-06 09:52:27,511 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRGEENP
+ INFO 2019-02-06 09:52:27,511 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRGEVEL
+ INFO 2019-02-06 09:52:27,526 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRGRUCU
+ INFO 2019-02-06 09:52:27,526 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHICAA
+ INFO 2019-02-06 09:52:27,526 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDCH
+ INFO 2019-02-06 09:52:27,573 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDCO
+ INFO 2019-02-06 09:52:27,604 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDMA
+ INFO 2019-02-06 09:52:27,650 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDMI
+ INFO 2019-02-06 09:52:27,650 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDRA
+ INFO 2019-02-06 09:52:27,650 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDRL
+ INFO 2019-02-06 09:52:27,650 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDRO
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDRX
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDSA
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDSD
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIDSM
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIELB
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHIELC
+ INFO 2019-02-06 09:52:27,665 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRHISAA
+ INFO 2019-02-06 09:52:27,667 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRINDBI
+ INFO 2019-02-06 09:52:27,668 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRMONMA
+ INFO 2019-02-06 09:52:27,670 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDROSCAN
+ INFO 2019-02-06 09:52:27,673 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRPAPEL
+ INFO 2019-02-06 09:52:27,676 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRPERPF
+ INFO 2019-02-06 09:52:27,677 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRPRSOG
+ INFO 2019-02-06 09:52:27,684 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRPUNCI
+ INFO 2019-02-06 09:52:27,688 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRREENP
+ INFO 2019-02-06 09:52:27,695 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRREGEN
+ INFO 2019-02-06 09:52:27,698 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRSEAGC
+ INFO 2019-02-06 09:52:27,699 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRSERGE
+ INFO 2019-02-06 09:52:27,701 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRSIBOS
+ INFO 2019-02-06 09:52:27,703 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRTUNCA
+ INFO 2019-02-06 09:52:27,705 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GDRXOLPR
+ INFO 2019-02-06 09:52:27,707 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENACCAG
+ INFO 2019-02-06 09:52:27,708 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENAGENA
+ INFO 2019-02-06 09:52:27,710 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENAGRPO
+ INFO 2019-02-06 09:52:27,712 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENALENR
+ INFO 2019-02-06 09:52:27,714 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENANACA
+ INFO 2019-02-06 09:52:27,716 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCAIIP
+ INFO 2019-02-06 09:52:27,718 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCAISA
+ INFO 2019-02-06 09:52:27,720 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCEAIG
+ INFO 2019-02-06 09:52:27,721 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCEGSL
+ INFO 2019-02-06 09:52:27,728 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCGESJ
+ INFO 2019-02-06 09:52:27,737 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCINMC
+ INFO 2019-02-06 09:52:27,739 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCOELL
+ INFO 2019-02-06 09:52:27,741 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENCONCE
+ INFO 2019-02-06 09:52:27,744 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENDEIGC
+ INFO 2019-02-06 09:52:27,745 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENELEGE
+ INFO 2019-02-06 09:52:27,747 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENEMGEE
+ INFO 2019-02-06 09:52:27,755 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENENDEO
+ INFO 2019-02-06 09:52:27,757 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENESAES
+ INFO 2019-02-06 09:52:27,759 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENESIES
+ INFO 2019-02-06 09:52:27,761 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENFABRI
+ INFO 2019-02-06 09:52:27,763 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGEELN
+ INFO 2019-02-06 09:52:27,764 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGENAT
+ INFO 2019-02-06 09:52:27,767 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGENES
+ INFO 2019-02-06 09:52:27,769 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGENMO
+ INFO 2019-02-06 09:52:27,771 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGENOC
+ INFO 2019-02-06 09:52:27,780 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGLDEI
+ INFO 2019-02-06 09:52:27,782 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENGRGEO
+ INFO 2019-02-06 09:52:27,792 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDCA
+ INFO 2019-02-06 09:52:27,827 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDCH
+ INFO 2019-02-06 09:52:27,829 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDCO
+ INFO 2019-02-06 09:52:27,831 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDRA
+ INFO 2019-02-06 09:52:27,832 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDRO
+ INFO 2019-02-06 09:52:27,835 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIDSE
+ INFO 2019-02-06 09:52:27,837 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIHIJ
+ INFO 2019-02-06 09:52:27,846 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIRIV
+ INFO 2019-02-06 09:52:27,848 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIVIA
+ INFO 2019-02-06 09:52:27,850 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENHIXAC
+ INFO 2019-02-06 09:52:27,851 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINGMA
+ INFO 2019-02-06 09:52:27,853 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINGSD
+ INFO 2019-02-06 09:52:27,855 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINGTU
+ INFO 2019-02-06 09:52:27,857 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINGUN
+ INFO 2019-02-06 09:52:27,866 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINVAT
+ INFO 2019-02-06 09:52:27,868 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENINVPA
+ INFO 2019-02-06 09:52:27,871 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENJAEGL
+ INFO 2019-02-06 09:52:27,875 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENORTIT
+ INFO 2019-02-06 09:52:27,879 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENORZEL
+ INFO 2019-02-06 09:52:27,881 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENOXECO
+ INFO 2019-02-06 09:52:27,882 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENOXEII
+ INFO 2019-02-06 09:52:27,884 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENPANTA
+ INFO 2019-02-06 09:52:27,886 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENPILAR
+ INFO 2019-02-06 09:52:27,887 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENPOZVE
+ INFO 2019-02-06 09:52:27,889 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENPUQPL
+ INFO 2019-02-06 09:52:27,890 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENRENAC
+ INFO 2019-02-06 09:52:27,892 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENRENGU
+ INFO 2019-02-06 09:52:27,893 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENTACAE
+ INFO 2019-02-06 09:52:27,895 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENTECNO
+ INFO 2019-02-06 09:52:27,896 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENTERMI
+ INFO 2019-02-06 09:52:27,899 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENTRAEL
+ INFO 2019-02-06 09:52:27,900 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GENVIEBL
+ INFO 2019-02-06 09:52:27,909 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSAGJIC
+ INFO 2019-02-06 09:52:27,920 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSAPTEQ
+ INFO 2019-02-06 09:52:27,928 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSDARSA
+ INFO 2019-02-06 09:52:27,931 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSDUEGC
+ INFO 2019-02-06 09:52:27,933 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSEMGEE
+ INFO 2019-02-06 09:52:27,935 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSENRSW
+ INFO 2019-02-06 09:52:27,936 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSENTRI
+ INFO 2019-02-06 09:52:27,943 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSGUAMO
+ INFO 2019-02-06 09:52:27,944 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSINMRO
+ INFO 2019-02-06 09:52:27,946 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSIRTRA
+ INFO 2019-02-06 09:52:27,947 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de GUSPAFDG
+ INFO 2019-02-06 09:52:27,949 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRAEMPRR
+ INFO 2019-02-06 09:52:27,951 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRAETCEE
+ INFO 2019-02-06 09:52:27,952 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRARECSA
+ INFO 2019-02-06 09:52:27,953 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRATRELC
+ INFO 2019-02-06 09:52:27,955 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRATRELO
+ INFO 2019-02-06 09:52:27,957 amm.org.db.Conexion (Conexion.java:get_representante_empresa:131) - Obtencion del representante de TRATRENC
+ INFO 2019-02-06 09:52:27,957 amm.org.logica.controlador (controlador.java:llenar_correos_empresas:95) - Llenado de correos por empresas
+ INFO 2019-02-06 09:52:27,960 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 1
+ INFO 2019-02-06 09:52:27,963 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 2
+ INFO 2019-02-06 09:52:27,964 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 3
+ INFO 2019-02-06 09:52:27,966 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 4
+ INFO 2019-02-06 09:52:27,968 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 5
+ INFO 2019-02-06 09:52:27,971 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 6
+ INFO 2019-02-06 09:52:27,973 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 7
+ INFO 2019-02-06 09:52:27,976 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 8
+ INFO 2019-02-06 09:52:27,978 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 9
+ INFO 2019-02-06 09:52:27,980 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 10
+ INFO 2019-02-06 09:52:27,982 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 11
+ INFO 2019-02-06 09:52:27,983 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 12
+ INFO 2019-02-06 09:52:27,985 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 13
+ INFO 2019-02-06 09:52:27,986 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 14
+ INFO 2019-02-06 09:52:27,988 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 15
+ INFO 2019-02-06 09:52:27,990 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 16
+ INFO 2019-02-06 09:52:28,001 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 17
+ INFO 2019-02-06 09:52:28,003 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 18
+ INFO 2019-02-06 09:52:28,015 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 19
+ INFO 2019-02-06 09:52:28,017 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 20
+ INFO 2019-02-06 09:52:28,020 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 21
+ INFO 2019-02-06 09:52:28,026 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 22
+ INFO 2019-02-06 09:52:28,030 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 23
+ INFO 2019-02-06 09:52:28,032 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 24
+ INFO 2019-02-06 09:52:28,035 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 25
+ INFO 2019-02-06 09:52:28,037 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 26
+ INFO 2019-02-06 09:52:28,039 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 27
+ INFO 2019-02-06 09:52:28,041 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 28
+ INFO 2019-02-06 09:52:28,044 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 29
+ INFO 2019-02-06 09:52:28,047 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 30
+ INFO 2019-02-06 09:52:28,050 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 31
+ INFO 2019-02-06 09:52:28,054 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 32
+ INFO 2019-02-06 09:52:28,056 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 33
+ INFO 2019-02-06 09:52:28,058 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 34
+ INFO 2019-02-06 09:52:28,060 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 35
+ INFO 2019-02-06 09:52:28,064 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 36
+ INFO 2019-02-06 09:52:28,067 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 37
+ INFO 2019-02-06 09:52:28,070 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 38
+ INFO 2019-02-06 09:52:28,071 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 39
+ INFO 2019-02-06 09:52:28,073 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 40
+ INFO 2019-02-06 09:52:28,077 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 41
+ INFO 2019-02-06 09:52:28,079 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 42
+ INFO 2019-02-06 09:52:28,081 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 43
+ INFO 2019-02-06 09:52:28,086 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 44
+ INFO 2019-02-06 09:52:28,088 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 45
+ INFO 2019-02-06 09:52:28,090 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 47
+ INFO 2019-02-06 09:52:28,093 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 48
+ INFO 2019-02-06 09:52:28,095 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 49
+ INFO 2019-02-06 09:52:28,097 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 50
+ INFO 2019-02-06 09:52:28,099 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 51
+ INFO 2019-02-06 09:52:28,100 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 52
+ INFO 2019-02-06 09:52:28,109 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 53
+ INFO 2019-02-06 09:52:28,111 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 54
+ INFO 2019-02-06 09:52:28,113 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 55
+ INFO 2019-02-06 09:52:28,114 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 56
+ INFO 2019-02-06 09:52:28,116 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 57
+ INFO 2019-02-06 09:52:28,119 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 58
+ INFO 2019-02-06 09:52:28,121 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 59
+ INFO 2019-02-06 09:52:28,123 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 60
+ INFO 2019-02-06 09:52:28,125 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 61
+ INFO 2019-02-06 09:52:28,127 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 62
+ INFO 2019-02-06 09:52:28,130 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 63
+ INFO 2019-02-06 09:52:28,132 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 64
+ INFO 2019-02-06 09:52:28,134 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 65
+ INFO 2019-02-06 09:52:28,136 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 66
+ INFO 2019-02-06 09:52:28,138 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 67
+ INFO 2019-02-06 09:52:28,139 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 68
+ INFO 2019-02-06 09:52:28,145 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 69
+ INFO 2019-02-06 09:52:28,148 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 70
+ INFO 2019-02-06 09:52:28,150 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 71
+ INFO 2019-02-06 09:52:28,152 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 73
+ INFO 2019-02-06 09:52:28,154 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 74
+ INFO 2019-02-06 09:52:28,156 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 75
+ INFO 2019-02-06 09:52:28,157 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 76
+ INFO 2019-02-06 09:52:28,159 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 77
+ INFO 2019-02-06 09:52:28,162 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 78
+ INFO 2019-02-06 09:52:28,165 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 79
+ INFO 2019-02-06 09:52:28,167 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 80
+ INFO 2019-02-06 09:52:28,169 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 81
+ INFO 2019-02-06 09:52:28,172 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 82
+ INFO 2019-02-06 09:52:28,174 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 83
+ INFO 2019-02-06 09:52:28,176 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 84
+ INFO 2019-02-06 09:52:28,178 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 85
+ INFO 2019-02-06 09:52:28,181 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 86
+ INFO 2019-02-06 09:52:28,185 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 87
+ INFO 2019-02-06 09:52:28,188 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 88
+ INFO 2019-02-06 09:52:28,191 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 89
+ INFO 2019-02-06 09:52:28,192 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 90
+ INFO 2019-02-06 09:52:28,194 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 91
+ INFO 2019-02-06 09:52:28,196 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 92
+ INFO 2019-02-06 09:52:28,198 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 93
+ INFO 2019-02-06 09:52:28,201 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 94
+ INFO 2019-02-06 09:52:28,204 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 95
+ INFO 2019-02-06 09:52:28,207 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 96
+ INFO 2019-02-06 09:52:28,218 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 98
+ INFO 2019-02-06 09:52:28,226 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 99
+ INFO 2019-02-06 09:52:28,229 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 100
+ INFO 2019-02-06 09:52:28,232 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 101
+ INFO 2019-02-06 09:52:28,234 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 102
+ INFO 2019-02-06 09:52:28,236 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 103
+ INFO 2019-02-06 09:52:28,238 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 104
+ INFO 2019-02-06 09:52:28,242 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 105
+ INFO 2019-02-06 09:52:28,245 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 106
+ INFO 2019-02-06 09:52:28,247 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 107
+ INFO 2019-02-06 09:52:28,249 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 108
+ INFO 2019-02-06 09:52:28,251 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 109
+ INFO 2019-02-06 09:52:28,253 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 110
+ INFO 2019-02-06 09:52:28,255 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 111
+ INFO 2019-02-06 09:52:28,257 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 112
+ INFO 2019-02-06 09:52:28,262 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 113
+ INFO 2019-02-06 09:52:28,265 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 114
+ INFO 2019-02-06 09:52:28,267 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 115
+ INFO 2019-02-06 09:52:28,268 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 116
+ INFO 2019-02-06 09:52:28,270 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 117
+ INFO 2019-02-06 09:52:28,272 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 118
+ INFO 2019-02-06 09:52:28,274 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 119
+ INFO 2019-02-06 09:52:28,346 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 120
+ INFO 2019-02-06 09:52:28,383 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 121
+ INFO 2019-02-06 09:52:28,385 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 122
+ INFO 2019-02-06 09:52:28,387 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 123
+ INFO 2019-02-06 09:52:28,389 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 124
+ INFO 2019-02-06 09:52:28,390 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 125
+ INFO 2019-02-06 09:52:28,392 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 126
+ INFO 2019-02-06 09:52:28,394 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 127
+ INFO 2019-02-06 09:52:28,396 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 129
+ INFO 2019-02-06 09:52:28,398 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 130
+ INFO 2019-02-06 09:52:28,400 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 131
+ INFO 2019-02-06 09:52:28,402 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 132
+ INFO 2019-02-06 09:52:28,404 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 133
+ INFO 2019-02-06 09:52:28,406 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 134
+ INFO 2019-02-06 09:52:28,407 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 135
+ INFO 2019-02-06 09:52:28,409 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 136
+ INFO 2019-02-06 09:52:28,410 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 137
+ INFO 2019-02-06 09:52:28,411 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 138
+ INFO 2019-02-06 09:52:28,413 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 139
+ INFO 2019-02-06 09:52:28,415 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 140
+ INFO 2019-02-06 09:52:28,416 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 141
+ INFO 2019-02-06 09:52:28,418 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 143
+ INFO 2019-02-06 09:52:28,419 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 144
+ INFO 2019-02-06 09:52:28,419 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 145
+ INFO 2019-02-06 09:52:28,421 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 146
+ INFO 2019-02-06 09:52:28,422 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 147
+ INFO 2019-02-06 09:52:28,424 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 148
+ INFO 2019-02-06 09:52:28,425 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 149
+ INFO 2019-02-06 09:52:28,427 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 150
+ INFO 2019-02-06 09:52:28,430 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 151
+ INFO 2019-02-06 09:52:28,431 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 152
+ INFO 2019-02-06 09:52:28,433 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 153
+ INFO 2019-02-06 09:52:28,434 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 154
+ INFO 2019-02-06 09:52:28,436 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 155
+ INFO 2019-02-06 09:52:28,438 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 157
+ INFO 2019-02-06 09:52:28,439 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 158
+ INFO 2019-02-06 09:52:28,491 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 0
+ INFO 2019-02-06 09:52:28,493 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 159
+ INFO 2019-02-06 09:52:28,495 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 160
+ INFO 2019-02-06 09:52:28,496 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 161
+ INFO 2019-02-06 09:52:28,498 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 0
+ INFO 2019-02-06 09:52:28,499 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 0
+ INFO 2019-02-06 09:52:28,501 amm.org.db.Conexion (Conexion.java:get_correos_representantes:155) - Obtencion de los correos de 0
+ INFO 2019-02-06 09:52:28,501 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCCELC
+ INFO 2019-02-06 09:52:30,718 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCECEE
+ INFO 2019-02-06 09:52:31,907 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOELC
+ INFO 2019-02-06 09:52:32,522 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOELG
+ INFO 2019-02-06 09:52:35,468 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOELP
+ INFO 2019-02-06 09:52:35,785 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOELU
+ INFO 2019-02-06 09:52:36,117 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOEND
+ INFO 2019-02-06 09:52:36,586 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOESD
+ INFO 2019-02-06 09:52:37,449 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOGUE
+ INFO 2019-02-06 09:52:37,921 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCOMEL
+ INFO 2019-02-06 09:52:38,582 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMCUCOE
+ INFO 2019-02-06 09:52:38,786 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMECONO
+ INFO 2019-02-06 09:52:41,204 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMIONEN
+ INFO 2019-02-06 09:52:42,514 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMMAYEL
+ INFO 2019-02-06 09:52:43,860 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMRECGE
+ INFO 2019-02-06 09:52:44,215 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: COMSOLGU
+ INFO 2019-02-06 09:52:45,060 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISDIEOC
+ INFO 2019-02-06 09:52:45,448 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISDIEOR
+ INFO 2019-02-06 09:52:45,742 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMGT
+ INFO 2019-02-06 09:52:46,024 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMGU
+ INFO 2019-02-06 09:52:46,209 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMHU
+ INFO 2019-02-06 09:52:46,433 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMJA
+ INFO 2019-02-06 09:52:46,594 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMJO
+ INFO 2019-02-06 09:52:46,776 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMPB
+ INFO 2019-02-06 09:52:46,950 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMQU
+ INFO 2019-02-06 09:52:47,083 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMRE
+ INFO 2019-02-06 09:52:47,680 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMSC
+ INFO 2019-02-06 09:52:47,810 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMSE
+ INFO 2019-02-06 09:52:47,969 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMSM
+ INFO 2019-02-06 09:52:48,125 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMSP
+ INFO 2019-02-06 09:52:48,262 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEEMZA
+ INFO 2019-02-06 09:52:48,397 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEMELG
+ INFO 2019-02-06 09:52:49,225 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: DISEMREP
+ INFO 2019-02-06 09:52:49,346 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGAAC
+ INFO 2019-02-06 09:52:49,447 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGELC
+ INFO 2019-02-06 09:52:50,072 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGLAE
+ INFO 2019-02-06 09:52:50,428 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGPIN
+ INFO 2019-02-06 09:52:50,621 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGRAL
+ INFO 2019-02-06 09:52:50,777 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGROG
+ INFO 2019-02-06 09:52:50,890 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRAGROP
+ INFO 2019-02-06 09:52:50,992 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRCAURE
+ INFO 2019-02-06 09:52:51,134 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRCOAGO
+ INFO 2019-02-06 09:52:51,251 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRCOMAP
+ INFO 2019-02-06 09:52:51,391 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRCONSM
+ INFO 2019-02-06 09:52:51,503 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRCORAL
+ INFO 2019-02-06 09:52:51,832 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRDELAU
+ INFO 2019-02-06 09:52:51,952 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRENENA
+ INFO 2019-02-06 09:52:52,064 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRENREA
+ INFO 2019-02-06 09:52:52,180 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRFINCO
+ INFO 2019-02-06 09:52:52,381 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRGASBI
+ INFO 2019-02-06 09:52:52,535 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRGEELP
+ INFO 2019-02-06 09:52:53,481 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRGEENP
+ INFO 2019-02-06 09:52:53,588 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRGEVEL
+ INFO 2019-02-06 09:52:53,685 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRGRUCU
+ INFO 2019-02-06 09:52:53,843 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHICAA
+ INFO 2019-02-06 09:52:53,932 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDCH
+ INFO 2019-02-06 09:52:54,016 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDCO
+ INFO 2019-02-06 09:52:54,096 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDMA
+ INFO 2019-02-06 09:52:54,219 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDMI
+ INFO 2019-02-06 09:52:54,322 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDRA
+ INFO 2019-02-06 09:52:54,418 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDRL
+ INFO 2019-02-06 09:52:54,508 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDRO
+ INFO 2019-02-06 09:52:54,598 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDRX
+ INFO 2019-02-06 09:52:54,740 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDSA
+ INFO 2019-02-06 09:52:54,884 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDSD
+ INFO 2019-02-06 09:52:55,049 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIDSM
+ INFO 2019-02-06 09:52:55,144 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIELB
+ INFO 2019-02-06 09:52:55,244 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHIELC
+ INFO 2019-02-06 09:52:55,331 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRHISAA
+ INFO 2019-02-06 09:52:55,490 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRINDBI
+ INFO 2019-02-06 09:52:55,578 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRMONMA
+ INFO 2019-02-06 09:52:55,679 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDROSCAN
+ INFO 2019-02-06 09:52:55,778 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRPAPEL
+ INFO 2019-02-06 09:52:55,983 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRPERPF
+ INFO 2019-02-06 09:52:56,061 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRPRSOG
+ INFO 2019-02-06 09:52:56,150 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRPUNCI
+ INFO 2019-02-06 09:52:56,232 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRREENP
+ INFO 2019-02-06 09:52:56,318 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRREGEN
+ INFO 2019-02-06 09:52:56,405 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRSEAGC
+ INFO 2019-02-06 09:52:56,551 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRSERGE
+ INFO 2019-02-06 09:52:57,103 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRSIBOS
+ INFO 2019-02-06 09:52:57,215 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRTUNCA
+ INFO 2019-02-06 09:52:57,295 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GDRXOLPR
+ INFO 2019-02-06 09:52:57,658 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENACCAG
+ INFO 2019-02-06 09:52:57,761 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENAGENA
+ INFO 2019-02-06 09:52:57,863 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENAGRPO
+ INFO 2019-02-06 09:52:58,021 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENALENR
+ INFO 2019-02-06 09:52:58,109 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENANACA
+ INFO 2019-02-06 09:52:58,196 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCAIIP
+ INFO 2019-02-06 09:52:58,285 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCAISA
+ INFO 2019-02-06 09:52:58,462 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCEAIG
+ INFO 2019-02-06 09:52:58,585 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCEGSL
+ INFO 2019-02-06 09:52:58,691 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCGESJ
+ INFO 2019-02-06 09:52:58,794 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCINMC
+ INFO 2019-02-06 09:52:58,867 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCOELL
+ INFO 2019-02-06 09:52:58,985 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENCONCE
+ INFO 2019-02-06 09:52:59,135 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENDEIGC
+ INFO 2019-02-06 09:52:59,248 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENELEGE
+ INFO 2019-02-06 09:52:59,353 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENEMGEE
+ INFO 2019-02-06 09:52:59,473 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENENDEO
+ INFO 2019-02-06 09:52:59,597 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENESAES
+ INFO 2019-02-06 09:52:59,742 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENESIES
+ INFO 2019-02-06 09:52:59,830 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENFABRI
+ INFO 2019-02-06 09:53:00,034 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGEELN
+ INFO 2019-02-06 09:53:00,115 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGENAT
+ INFO 2019-02-06 09:53:00,239 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGENES
+ INFO 2019-02-06 09:53:00,395 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGENMO
+ INFO 2019-02-06 09:53:00,525 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGENOC
+ INFO 2019-02-06 09:53:00,606 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGLDEI
+ INFO 2019-02-06 09:53:00,727 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENGRGEO
+ INFO 2019-02-06 09:53:00,807 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDCA
+ INFO 2019-02-06 09:53:00,892 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDCH
+ INFO 2019-02-06 09:53:01,080 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDCO
+ INFO 2019-02-06 09:53:01,231 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDRA
+ INFO 2019-02-06 09:53:01,340 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDRO
+ INFO 2019-02-06 09:53:01,423 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIDSE
+ INFO 2019-02-06 09:53:01,511 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIHIJ
+ INFO 2019-02-06 09:53:01,594 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIRIV
+ INFO 2019-02-06 09:53:01,681 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIVIA
+ INFO 2019-02-06 09:53:01,768 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENHIXAC
+ INFO 2019-02-06 09:53:01,858 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINGMA
+ INFO 2019-02-06 09:53:01,957 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINGSD
+ INFO 2019-02-06 09:53:02,038 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINGTU
+ INFO 2019-02-06 09:53:02,169 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINGUN
+ INFO 2019-02-06 09:53:02,264 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINVAT
+ INFO 2019-02-06 09:53:02,337 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENINVPA
+ INFO 2019-02-06 09:53:02,441 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENJAEGL
+ INFO 2019-02-06 09:53:02,567 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENORTIT
+ INFO 2019-02-06 09:53:02,732 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENORZEL
+ INFO 2019-02-06 09:53:02,856 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENOXECO
+ INFO 2019-02-06 09:53:03,162 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENOXEII
+ INFO 2019-02-06 09:53:03,986 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENPANTA
+ INFO 2019-02-06 09:53:04,082 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENPILAR
+ INFO 2019-02-06 09:53:04,154 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENPOZVE
+ INFO 2019-02-06 09:53:04,231 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENPUQPL
+ INFO 2019-02-06 09:53:04,311 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENRENAC
+ INFO 2019-02-06 09:53:04,457 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENRENGU
+ INFO 2019-02-06 09:53:04,528 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENTACAE
+ INFO 2019-02-06 09:53:04,604 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENTECNO
+ INFO 2019-02-06 09:53:04,717 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENTERMI
+ INFO 2019-02-06 09:53:04,902 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENTRAEL
+ INFO 2019-02-06 09:53:05,090 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GENVIEBL
+ INFO 2019-02-06 09:53:05,215 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSAGJIC
+ INFO 2019-02-06 09:53:05,300 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSAPTEQ
+ INFO 2019-02-06 09:53:05,376 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSDARSA
+ INFO 2019-02-06 09:53:05,506 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSDUEGC
+ INFO 2019-02-06 09:53:05,927 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSEMGEE
+ INFO 2019-02-06 09:53:06,009 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSENRSW
+ INFO 2019-02-06 09:53:06,094 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSENTRI
+ INFO 2019-02-06 09:53:06,183 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSGUAMO
+ INFO 2019-02-06 09:53:06,297 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSINMRO
+ INFO 2019-02-06 09:53:06,386 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSIRTRA
+ INFO 2019-02-06 09:53:06,464 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: GUSPAFDG
+ INFO 2019-02-06 09:53:06,577 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRAEMPRR
+ INFO 2019-02-06 09:53:06,716 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRAETCEE
+ INFO 2019-02-06 09:53:06,996 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRARECSA
+ INFO 2019-02-06 09:53:07,085 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRATRELC
+ INFO 2019-02-06 09:53:07,408 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRATRELO
+ INFO 2019-02-06 09:53:07,501 amm.org.logica.controlador (controlador.java:generar_cartas_empresas:104) - Generacion de cartas para: TRATRENC
+ INFO 2019-02-06 09:53:07,631 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCCELC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,632 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCECEE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,632 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOELC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,632 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOELG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,633 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOELP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,633 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOELU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,633 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOEND, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,634 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOESD, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,634 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOGUE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,635 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCOMEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,635 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMCUCOE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,635 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMECONO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,636 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMIONEN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,636 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMMAYEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,636 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMRECGE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,637 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: COMSOLGU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,637 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISDIEOC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,637 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISDIEOR, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,638 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMGT, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,638 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMGU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,638 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMHU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,639 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMJA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,640 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMJO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,640 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMPB, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,640 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMQU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,641 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMRE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,641 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMSC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,641 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMSE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,642 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMSM, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,642 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMSP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEEMZA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEMELG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: DISEMREP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGAAC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGELC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,643 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGLAE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,644 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGPIN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,644 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGRAL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,644 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGROG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,645 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRAGROP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,645 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRCAURE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,645 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRCOAGO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,646 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRCOMAP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,646 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRCONSM, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,646 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRCORAL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,647 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRDELAU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,647 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRENENA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,647 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRENREA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,648 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRFINCO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,648 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRGASBI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,648 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRGEELP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,649 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRGEENP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,649 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRGEVEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,650 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRGRUCU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,650 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHICAA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,650 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDCH, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,651 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDCO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,651 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDMA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,651 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDMI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,652 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDRA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,652 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDRL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,652 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDRO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,653 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDRX, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,653 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDSA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,653 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDSD, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,654 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIDSM, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,654 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIELB, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,655 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHIELC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,655 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRHISAA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,655 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRINDBI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,656 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRMONMA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,656 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDROSCAN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,656 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRPAPEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,657 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRPERPF, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,657 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRPRSOG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,657 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRPUNCI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,658 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRREENP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,658 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRREGEN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,658 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRSEAGC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,659 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRSERGE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,659 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRSIBOS, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,660 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRTUNCA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,660 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GDRXOLPR, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,660 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENACCAG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,661 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENAGENA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,661 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENAGRPO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,661 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENALENR, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,661 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENANACA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,662 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCAIIP, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,662 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCAISA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,662 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCEAIG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,663 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCEGSL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,663 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCGESJ, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,664 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCINMC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,664 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCOELL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,664 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENCONCE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,665 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENDEIGC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,671 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENELEGE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,672 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENEMGEE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,672 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENENDEO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,672 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENESAES, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,673 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENESIES, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,673 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENFABRI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,673 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGEELN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,674 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGENAT, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,674 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGENES, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,675 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGENMO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,675 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGENOC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,675 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGLDEI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,676 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENGRGEO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,676 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDCA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,676 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDCH, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,677 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDCO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,678 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDRA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,678 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDRO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,678 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIDSE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,679 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIHIJ, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,679 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIRIV, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,679 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIVIA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,679 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENHIXAC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,679 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINGMA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,680 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINGSD, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,680 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINGTU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,680 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINGUN, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,681 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINVAT, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,681 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENINVPA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,681 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENJAEGL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,681 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENORTIT, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,682 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENORZEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,683 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENOXECO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,683 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENOXEII, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,684 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENPANTA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,684 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENPILAR, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,684 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENPOZVE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,685 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENPUQPL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,685 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENRENAC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,686 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENRENGU, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,686 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENTACAE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,686 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENTECNO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,687 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENTERMI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,687 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENTRAEL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,687 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GENVIEBL, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,688 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSAGJIC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,688 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSAPTEQ, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSDARSA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSDUEGC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSEMGEE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSENRSW, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSENTRI, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSGUAMO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSINMRO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,689 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSIRTRA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: GUSPAFDG, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRAEMPRR, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRAETCEE, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRARECSA, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRATRELC, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRATRELO, <desarrollo.amm@amm.org.gt>
+ INFO 2019-02-06 09:53:07,690 amm.org.db.Conexion (Conexion.java:enviar_correos:192) - Envio de correos a: TRATRENC, <desarrollo.amm@amm.org.gt>
+06-02-2019 09:58:09 INFO  principal:25 - Se inicio el proceso **************REPORTES DE MEDICION**************
+06-02-2019 09:58:09 INFO  Conexion:78 - Carga de los parametros del archivo properties de la BD
+06-02-2019 09:58:09 INFO  Conexion:50 - Conectado a Base de Datos
+06-02-2019 09:58:09 INFO  controlador:29 - Se inicio el controlador
+06-02-2019 09:58:09 INFO  controlador:41 - Se inicio la obtencion de empresas
+06-02-2019 09:59:56 INFO  Conexion:103 - Obtencion del reporte de medicion
+06-02-2019 09:59:56 INFO  Conexion:104 - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+06-02-2019 09:59:56 INFO  controlador:47 - El numero de registros es mayor al maximo asignado
+06-02-2019 09:59:56 INFO  controlador:135 - Creacion del directorio para cartas: src/reportes/2019/enero
+06-02-2019 09:59:56 INFO  Conexion:233 - Modificacion de la ruta CARTAS_MEDICION --> src/reportes/2019/enero/
+06-02-2019 09:59:56 INFO  controlador:88 - Agrupacion de registros por empresas
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCCELC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCECEE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOELC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOELG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOELP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOELU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOEND
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOESD
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOGUE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCOMEL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMCUCOE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMECONO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMIONEN
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMMAYEL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMRECGE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de COMSOLGU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISDIEOC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISDIEOR
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMGT
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMGU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMHU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMJA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMJO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMPB
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMQU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMRE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMSC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMSE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMSM
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMSP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEEMZA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEMELG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de DISEMREP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGAAC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGELC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGLAE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGPIN
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGRAL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGROG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRAGROP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRCAURE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRCOAGO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRCOMAP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRCONSM
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRCORAL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRDELAU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRENENA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRENREA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRFINCO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRGASBI
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRGEELP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRGEENP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRGEVEL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRGRUCU
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHICAA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDCH
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDCO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDMA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDMI
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDRA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDRL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDRO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDRX
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDSA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDSD
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIDSM
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIELB
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHIELC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRHISAA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRINDBI
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRMONMA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDROSCAN
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRPAPEL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRPERPF
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRPRSOG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRPUNCI
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRREENP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRREGEN
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRSEAGC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRSERGE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRSIBOS
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRTUNCA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GDRXOLPR
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENACCAG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENAGENA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENAGRPO
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENALENR
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENANACA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCAIIP
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCAISA
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCEAIG
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCEGSL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCGESJ
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCINMC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCOELL
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENCONCE
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENDEIGC
+06-02-2019 09:59:56 INFO  Conexion:131 - Obtencion del representante de GENELEGE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENEMGEE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENENDEO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENESAES
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENESIES
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENFABRI
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGEELN
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGENAT
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGENES
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGENMO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGENOC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGLDEI
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENGRGEO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDCA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDCH
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDCO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDRA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDRO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIDSE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIHIJ
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIRIV
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIVIA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENHIXAC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINGMA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINGSD
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINGTU
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINGUN
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINVAT
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENINVPA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENJAEGL
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENORTIT
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENORZEL
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENOXECO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENOXEII
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENPANTA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENPILAR
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENPOZVE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENPUQPL
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENRENAC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENRENGU
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENTACAE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENTECNO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENTERMI
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENTRAEL
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GENVIEBL
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSAGJIC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSAPTEQ
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSDARSA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSDUEGC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSEMGEE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSENRSW
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSENTRI
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSGUAMO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSINMRO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSIRTRA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de GUSPAFDG
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRAEMPRR
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRAETCEE
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRARECSA
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRATRELC
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRATRELO
+06-02-2019 09:59:57 INFO  Conexion:131 - Obtencion del representante de TRATRENC
+06-02-2019 09:59:57 INFO  controlador:95 - Llenado de correos por empresas
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 1
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 2
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 3
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 4
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 5
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 6
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 7
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 8
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 9
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 10
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 11
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 12
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 13
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 14
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 15
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 16
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 17
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 18
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 19
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 20
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 21
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 22
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 23
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 24
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 25
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 26
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 27
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 28
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 29
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 30
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 31
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 32
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 33
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 34
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 35
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 36
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 37
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 38
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 39
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 40
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 41
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 42
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 43
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 44
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 45
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 47
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 48
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 49
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 50
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 51
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 52
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 53
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 54
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 55
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 56
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 57
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 58
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 59
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 60
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 61
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 62
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 63
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 64
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 65
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 66
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 67
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 68
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 69
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 70
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 71
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 73
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 74
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 75
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 76
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 77
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 78
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 79
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 80
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 81
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 82
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 83
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 84
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 85
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 86
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 87
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 88
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 89
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 90
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 91
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 92
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 93
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 94
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 95
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 96
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 98
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 99
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 100
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 101
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 102
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 103
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 104
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 105
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 106
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 107
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 108
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 109
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 110
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 111
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 112
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 113
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 114
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 115
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 116
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 117
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 118
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 119
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 120
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 121
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 122
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 123
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 124
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 125
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 126
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 127
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 129
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 130
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 131
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 132
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 133
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 134
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 135
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 136
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 137
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 138
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 139
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 140
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 141
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 143
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 144
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 145
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 146
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 147
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 148
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 149
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 150
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 151
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 152
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 153
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 154
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 155
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 157
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 158
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 0
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 159
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 160
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 161
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 0
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 0
+06-02-2019 09:59:57 INFO  Conexion:155 - Obtencion de los correos de 0
+06-02-2019 09:59:57 INFO  controlador:104 - Generacion de cartas para: COMCCELC
+06-02-2019 09:59:59 INFO  controlador:104 - Generacion de cartas para: COMCECEE
+06-02-2019 10:00:01 INFO  controlador:104 - Generacion de cartas para: COMCOELC
+06-02-2019 10:00:02 INFO  controlador:104 - Generacion de cartas para: COMCOELG
+06-02-2019 10:00:04 INFO  controlador:104 - Generacion de cartas para: COMCOELP
+06-02-2019 10:00:05 INFO  controlador:104 - Generacion de cartas para: COMCOELU
+06-02-2019 10:00:05 INFO  controlador:104 - Generacion de cartas para: COMCOEND
+06-02-2019 10:00:05 INFO  controlador:104 - Generacion de cartas para: COMCOESD
+06-02-2019 10:00:06 INFO  controlador:104 - Generacion de cartas para: COMCOGUE
+06-02-2019 10:00:06 INFO  controlador:104 - Generacion de cartas para: COMCOMEL
+06-02-2019 10:00:07 INFO  controlador:104 - Generacion de cartas para: COMCUCOE
+06-02-2019 10:00:07 INFO  controlador:104 - Generacion de cartas para: COMECONO
+06-02-2019 10:00:08 INFO  controlador:104 - Generacion de cartas para: COMIONEN
+06-02-2019 10:00:10 INFO  controlador:104 - Generacion de cartas para: COMMAYEL
+06-02-2019 10:00:10 INFO  controlador:104 - Generacion de cartas para: COMRECGE
+06-02-2019 10:00:11 INFO  controlador:104 - Generacion de cartas para: COMSOLGU
+06-02-2019 10:00:11 INFO  controlador:104 - Generacion de cartas para: DISDIEOC
+06-02-2019 10:00:11 INFO  controlador:104 - Generacion de cartas para: DISDIEOR
+06-02-2019 10:00:12 INFO  controlador:104 - Generacion de cartas para: DISEEMGT
+06-02-2019 10:00:12 INFO  controlador:104 - Generacion de cartas para: DISEEMGU
+06-02-2019 10:00:12 INFO  controlador:104 - Generacion de cartas para: DISEEMHU
+06-02-2019 10:00:12 INFO  controlador:104 - Generacion de cartas para: DISEEMJA
+06-02-2019 10:00:12 INFO  controlador:104 - Generacion de cartas para: DISEEMJO
+06-02-2019 10:00:13 INFO  controlador:104 - Generacion de cartas para: DISEEMPB
+06-02-2019 10:00:13 INFO  controlador:104 - Generacion de cartas para: DISEEMQU
+06-02-2019 10:00:13 INFO  controlador:104 - Generacion de cartas para: DISEEMRE
+06-02-2019 10:00:13 INFO  controlador:104 - Generacion de cartas para: DISEEMSC
+06-02-2019 10:00:14 INFO  controlador:104 - Generacion de cartas para: DISEEMSE
+06-02-2019 10:00:14 INFO  controlador:104 - Generacion de cartas para: DISEEMSM
+06-02-2019 10:00:14 INFO  controlador:104 - Generacion de cartas para: DISEEMSP
+06-02-2019 10:00:14 INFO  controlador:104 - Generacion de cartas para: DISEEMZA
+06-02-2019 10:00:14 INFO  controlador:104 - Generacion de cartas para: DISEMELG
+06-02-2019 10:00:15 INFO  controlador:104 - Generacion de cartas para: DISEMREP
+06-02-2019 10:00:15 INFO  controlador:104 - Generacion de cartas para: GDRAGAAC
+06-02-2019 10:00:15 INFO  controlador:104 - Generacion de cartas para: GDRAGELC
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRAGLAE
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRAGPIN
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRAGRAL
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRAGROG
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRAGROP
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRCAURE
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRCOAGO
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRCOMAP
+06-02-2019 10:00:16 INFO  controlador:104 - Generacion de cartas para: GDRCONSM
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRCORAL
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRDELAU
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRENENA
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRENREA
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRFINCO
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRGASBI
+06-02-2019 10:00:17 INFO  controlador:104 - Generacion de cartas para: GDRGEELP
+06-02-2019 10:00:18 INFO  controlador:104 - Generacion de cartas para: GDRGEENP
+06-02-2019 10:00:18 INFO  controlador:104 - Generacion de cartas para: GDRGEVEL
+06-02-2019 10:00:18 INFO  controlador:104 - Generacion de cartas para: GDRGRUCU
+06-02-2019 10:00:18 INFO  controlador:104 - Generacion de cartas para: GDRHICAA
+06-02-2019 10:00:18 INFO  controlador:104 - Generacion de cartas para: GDRHIDCH
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDCO
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDMA
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDMI
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDRA
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDRL
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDRO
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDRX
+06-02-2019 10:00:19 INFO  controlador:104 - Generacion de cartas para: GDRHIDSA
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRHIDSD
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRHIDSM
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRHIELB
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRHIELC
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRHISAA
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRINDBI
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRMONMA
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDROSCAN
+06-02-2019 10:00:20 INFO  controlador:104 - Generacion de cartas para: GDRPAPEL
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRPERPF
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRPRSOG
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRPUNCI
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRREENP
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRREGEN
+06-02-2019 10:00:21 INFO  controlador:104 - Generacion de cartas para: GDRSEAGC
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GDRSERGE
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GDRSIBOS
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GDRTUNCA
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GDRXOLPR
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GENACCAG
+06-02-2019 10:00:22 INFO  controlador:104 - Generacion de cartas para: GENAGENA
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENAGRPO
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENALENR
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENANACA
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENCAIIP
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENCAISA
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENCEAIG
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENCEGSL
+06-02-2019 10:00:23 INFO  controlador:104 - Generacion de cartas para: GENCGESJ
+06-02-2019 10:00:24 INFO  controlador:104 - Generacion de cartas para: GENCINMC
+06-02-2019 10:00:24 INFO  controlador:104 - Generacion de cartas para: GENCOELL
+06-02-2019 10:00:24 INFO  controlador:104 - Generacion de cartas para: GENCONCE
+06-02-2019 10:00:24 INFO  controlador:104 - Generacion de cartas para: GENDEIGC
+06-02-2019 10:00:24 INFO  controlador:104 - Generacion de cartas para: GENELEGE
+06-02-2019 10:00:25 INFO  controlador:104 - Generacion de cartas para: GENEMGEE
+06-02-2019 10:00:25 INFO  controlador:104 - Generacion de cartas para: GENENDEO
+06-02-2019 10:00:25 INFO  controlador:104 - Generacion de cartas para: GENESAES
+06-02-2019 10:00:25 INFO  controlador:104 - Generacion de cartas para: GENESIES
+06-02-2019 10:00:25 INFO  controlador:104 - Generacion de cartas para: GENFABRI
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGEELN
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGENAT
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGENES
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGENMO
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGENOC
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGLDEI
+06-02-2019 10:00:26 INFO  controlador:104 - Generacion de cartas para: GENGRGEO
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDCA
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDCH
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDCO
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDRA
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDRO
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIDSE
+06-02-2019 10:00:27 INFO  controlador:104 - Generacion de cartas para: GENHIHIJ
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENHIRIV
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENHIVIA
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENHIXAC
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINGMA
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINGSD
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINGTU
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINGUN
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINVAT
+06-02-2019 10:00:28 INFO  controlador:104 - Generacion de cartas para: GENINVPA
+06-02-2019 10:00:29 INFO  controlador:104 - Generacion de cartas para: GENJAEGL
+06-02-2019 10:00:29 INFO  controlador:104 - Generacion de cartas para: GENORTIT
+06-02-2019 10:00:29 INFO  controlador:104 - Generacion de cartas para: GENORZEL
+06-02-2019 10:00:29 INFO  controlador:104 - Generacion de cartas para: GENOXECO
+06-02-2019 10:00:30 INFO  controlador:104 - Generacion de cartas para: GENOXEII
+06-02-2019 10:00:30 INFO  controlador:104 - Generacion de cartas para: GENPANTA
+06-02-2019 10:00:30 INFO  controlador:104 - Generacion de cartas para: GENPILAR
+06-02-2019 10:00:30 INFO  controlador:104 - Generacion de cartas para: GENPOZVE
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENPUQPL
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENRENAC
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENRENGU
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENTACAE
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENTECNO
+06-02-2019 10:00:31 INFO  controlador:104 - Generacion de cartas para: GENTERMI
+06-02-2019 10:00:32 INFO  controlador:104 - Generacion de cartas para: GENTRAEL
+06-02-2019 10:00:32 INFO  controlador:104 - Generacion de cartas para: GENVIEBL
+06-02-2019 10:00:32 INFO  controlador:104 - Generacion de cartas para: GUSAGJIC
+06-02-2019 10:00:32 INFO  controlador:104 - Generacion de cartas para: GUSAPTEQ
+06-02-2019 10:00:32 INFO  controlador:104 - Generacion de cartas para: GUSDARSA
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSDUEGC
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSEMGEE
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSENRSW
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSENTRI
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSGUAMO
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSINMRO
+06-02-2019 10:00:33 INFO  controlador:104 - Generacion de cartas para: GUSIRTRA
+06-02-2019 10:00:34 INFO  controlador:104 - Generacion de cartas para: GUSPAFDG
+06-02-2019 10:00:34 INFO  controlador:104 - Generacion de cartas para: TRAEMPRR
+06-02-2019 10:00:34 INFO  controlador:104 - Generacion de cartas para: TRAETCEE
+06-02-2019 10:00:34 INFO  controlador:104 - Generacion de cartas para: TRARECSA
+06-02-2019 10:00:34 INFO  controlador:104 - Generacion de cartas para: TRATRELC
+06-02-2019 10:00:35 INFO  controlador:104 - Generacion de cartas para: TRATRELO
+06-02-2019 10:00:35 INFO  controlador:104 - Generacion de cartas para: TRATRENC
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCCELC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCECEE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOELC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOELG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOELP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOELU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOEND, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOESD, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOGUE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCOMEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMCUCOE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMECONO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMIONEN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMMAYEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMRECGE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: COMSOLGU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISDIEOC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISDIEOR, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMGT, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMGU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMHU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMJA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMJO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMPB, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMQU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMRE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMSC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMSE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMSM, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMSP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEEMZA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEMELG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: DISEMREP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGAAC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGELC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGLAE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGPIN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGRAL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGROG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRAGROP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRCAURE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRCOAGO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRCOMAP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRCONSM, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRCORAL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRDELAU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRENENA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRENREA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRFINCO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRGASBI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRGEELP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRGEENP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRGEVEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRGRUCU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHICAA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDCH, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDCO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDMA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDMI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDRA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDRL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDRO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDRX, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDSA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDSD, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIDSM, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIELB, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHIELC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRHISAA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRINDBI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRMONMA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDROSCAN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRPAPEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRPERPF, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRPRSOG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRPUNCI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRREENP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRREGEN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRSEAGC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRSERGE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRSIBOS, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRTUNCA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GDRXOLPR, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENACCAG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENAGENA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENAGRPO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENALENR, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENANACA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCAIIP, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCAISA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCEAIG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCEGSL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCGESJ, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCINMC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCOELL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENCONCE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENDEIGC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENELEGE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENEMGEE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENENDEO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENESAES, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENESIES, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENFABRI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGEELN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGENAT, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGENES, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGENMO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGENOC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGLDEI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENGRGEO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDCA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDCH, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDCO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDRA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDRO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIDSE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIHIJ, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIRIV, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIVIA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENHIXAC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINGMA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINGSD, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINGTU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINGUN, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINVAT, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENINVPA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENJAEGL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENORTIT, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENORZEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENOXECO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENOXEII, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENPANTA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENPILAR, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENPOZVE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENPUQPL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENRENAC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENRENGU, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENTACAE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENTECNO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENTERMI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENTRAEL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GENVIEBL, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSAGJIC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSAPTEQ, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSDARSA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSDUEGC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSEMGEE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSENRSW, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSENTRI, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSGUAMO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSINMRO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSIRTRA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: GUSPAFDG, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRAEMPRR, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRAETCEE, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRARECSA, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRATRELC, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRATRELO, <desarrollo.amm@amm.org.gt>
+06-02-2019 10:00:35 INFO  Conexion:192 - Envio de correos a: TRATRENC, <desarrollo.amm@amm.org.gt>

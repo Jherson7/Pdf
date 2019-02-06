@@ -2,6 +2,7 @@ package amm.org.db;
 
 import amm.org.beans.empresa;
 import amm.org.beans.objeto_reporte;
+import amm.org.logica.controlador;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -17,7 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 /**
  *
- * @author jortiz
+ * @author Jherson Sazo
  */
 public class Conexion {
   
@@ -33,16 +34,20 @@ public class Conexion {
     static PreparedStatement stament;//variable para realizar inserciones, modificaciones o eliminacion a DB
     static Statement st; //variable para realizar consultas a DB
     
+    private static final org.apache.log4j.Logger log = org.apache.log4j.Logger.getLogger(Conexion.class);
     
     public static Connection get_con() {
+       
         try {
             if (conn == null) {
                 iniciar_propiedades();
                 DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
                 System.out.println("Conectando con la base de datos...");
                 conn = DriverManager.getConnection(url, user, pass);
+               
                 /*conn = DriverManager.getConnection(
-                        "jdbc:oracle:thin:@localhost:1521:XE", "system", "jhony0104");*/
+                        "jdbc:oracle:thin:@localhost:1521:XE", "system", "password");*/
+                log.info("Conectado a Base de Datos");
                 Class.forName(driver);
             }
             
@@ -50,6 +55,7 @@ public class Conexion {
 
         } catch (Exception e) {
             System.out.println("The exception raised is:" + e);
+            log.info("Error al conectar a la BD> "+e.getMessage());
             return null;
         }
     }
@@ -69,7 +75,8 @@ public class Conexion {
              correo_amm         = prop.getProperty(("correo_medicion"));
              no_max_medicion    = Integer.parseInt(prop.getProperty(("no_max_medidores")));
              
-
+             log.info("Carga de los parametros del archivo properties de la BD");
+             
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
@@ -92,11 +99,16 @@ public class Conexion {
             }
             st.close();
 
+            
+            log.info("Obtencion del reporte de medicion");
+            log.info(query);
+            
             return result;
 
         } catch (Exception e) {
             System.out.println("Error al obtener la lista de medicion");
             System.out.println(e.getMessage());
+            log.info("ERROR al consultar el reporte de la lista de medicion");
             return null;
         }
     }
@@ -116,15 +128,15 @@ public class Conexion {
                 emp.setCod_rep(rs.getInt(2));
               
             }
+            log.info("Obtencion del representante de "+codigo);
             st.close();
         } catch (Exception e) {
             System.out.println("Error al obtener el representante de  medicion de la empresa: "+codigo);
+            log.info("ERROR al obtener del representante de "+codigo);
             System.out.println(e.getMessage());
         }
     }
-    //
 
-    
     public static LinkedList<String> get_correos_representantes(int id_rep) {
         try {
             String query = "select * from table (reporte_medicion.obtener_correos_medicion("+id_rep+"))";
@@ -140,15 +152,16 @@ public class Conexion {
             }
             st.close();
 
+            log.info("Obtencion de los correos de "+id_rep);
             return result;
 
         } catch (Exception e) {
             System.out.println("Error al obtener la lista de correos de medicion");
+            log.info("Error al obtener la lista de correos de medicion de "+id_rep);
             System.out.println(e.getMessage());
             return null;
         }
     }
-    
     
     public static void insertar_registro_temporal(objeto_reporte obj){
         try {
@@ -174,29 +187,64 @@ public class Conexion {
         
     }
     
-    //truncate table 
-   public static void limpiar_temp() {
+    public static void enviar_correos(String correos,String mensaje,String archivo,String empresa){
+        
+        log.info("Envio de correos a: "+empresa+", <"+correos+">");
+        
         try {
-            String query = "truncate table temp_rep_med";
-                     
-            st = conn.createStatement();
-            System.out.println(query);
-            st.execute(query);
-
-           /* while (rs.next()) {
-                System.out.println(rs.getString(1));
-            }*/
-            st.close();
-
+            //stament = conn.prepareStatement("insert into temp_reportes_medicion values(?,?,?,?,?,?,?)");
+            String query = "begin\n" +
+                            " amm.p_sendmailattach(\n" +
+                            "'"+correos+"',\n" +
+                            "NULL,\n" +
+                            "'correo de medicion'     ,\n" +
+                            "'"+mensaje+"'              ,\n" +
+                            "'"+archivo+"'\n" +
+                            ");\n" +
+                            "end;";
+            stament = conn.prepareStatement(query);
+          //  stament.execute();
+            stament.close();
             
-        } catch (Exception e) {
-            System.out.println("Error al obtener al truncar la tabla de registros temporales");
-            System.out.println(e.getMessage());
+        } catch (SQLException ex) {
+            Logger.getLogger(Conexion.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error al enviar los correos");
+            log.info("ERROR al enviar los correos a: "+empresa+", <"+correos+">");
+            System.out.println(ex.getMessage());
+        }
+        
+    }
+    
+    public static void limpiar_temp() {
+         try {
+             String query = "truncate table temp_rep_med";
+
+             st = conn.createStatement();
+             st.execute(query);
+
+             st.close();
+         } catch (Exception e) {
+             System.out.println("Error al obtener al truncar la tabla de registros temporales");
+             System.out.println(e.getMessage());
+         }
+     }
+
+    public static void modificar_registro_temporal(String nueva_ruta){
+        log.info("Modificacion de la ruta CARTAS_MEDICION --> "+nueva_ruta);
+        try {
+            stament = conn.prepareStatement("create or replace directory  CARTAS_MEDICION AS '/home/oracle/cartas'");
+           
+            stament.execute();
+            stament.close();
+        } catch (SQLException ex) {
+            Logger.getLogger(Conexion.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error al modificar la ruta temporal los datos temporales");
+            log.info("Error al modificar la ruta temporal los datos temporales --> "+nueva_ruta);
+            System.out.println(ex.getMessage());
         }
     }
-   
-   
-   private static void imprimir_temp() {
+    
+     private static void imprimir_temp() {
         try {
             String query = "select * from temp_reportes_medicion";
                      
@@ -216,6 +264,7 @@ public class Conexion {
             System.out.println(e.getMessage());
         }
     }
+    
 
 }
 
