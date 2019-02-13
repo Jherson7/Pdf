@@ -47,6 +47,7 @@ public class principal {
         System.out.println("Inicio: "+fechas[0]);
         System.out.println("Fin: "+fechas[1]);
         c.iniciar(correlativo,get_month(fecha_medicion),anio_medicion,fechas[0], fechas[1]);
+        System.out.println(System.getProperty("os.name"));
         //ManejadorReportes.generar_carta(correlativo,"Jherson","AMM",get_month(fecha_medicion),anio_medicion,fechas[0],fechas[1]);
 
     }

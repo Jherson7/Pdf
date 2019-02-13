@@ -128,7 +128,7 @@ public class controlador {
                 for(String carta:aux.cartas)
                     archivos = archivos.equals("")?carta:archivos+";"+carta;
             
-            Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", "test.pdf",aux.cartas.toString());
+            Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", archivos,aux.cartas.toString());
            // Conexion.enviar_correos("Direccion de correo destino","mensaje", archivos,aux.cartas.toString());
            
             }
@@ -147,7 +147,9 @@ public class controlador {
 
     private void crear_directorio_cartas(String anio_med, String mes_med) {
         log.info("Creacion del directorio para cartas: "+Conexion.ruta_cartas+anio_med+"/"+mes_med);
-        String ruta_ =Conexion.ruta_cartas+anio_med+"/"+mes_med;
+        String ruta_ ="";
+        
+        ruta_ =Conexion.ruta_cartas+anio_med+Conexion.slash+mes_med;
         
         File tmpDir = new File(ruta_);
         //
@@ -161,8 +163,8 @@ public class controlador {
             }
         }
         
-        Conexion.ruta_cartas=ruta_;//+"/";//cambio la ruta para que ahi se guarden todas las cartas
-        Conexion.modificar_registro_temporal(Conexion.ruta_cartas);
+        Conexion.ruta_cartas=ruta_+Conexion.slash;//+"/";//cambio la ruta para que ahi se guarden todas las cartas
+        Conexion.modificar_registro_temporal(ruta_);
     }
 
     private void llenar_correo(String email, String empresa) {

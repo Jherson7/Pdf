@@ -3728,3 +3728,1970 @@
 08-02-2019 15:55:49 INFO  Conexion:195 - Envio de correos a: [GUSENTRI.pdf], <desarrollo.amm@amm.org.gt>
 08-02-2019 15:55:49 INFO  Conexion:195 - Envio de correos a: [GUSGUAMO.pdf], <desarrollo.amm@amm.org.gt>
 08-02-2019 15:55:49 INFO  Conexion:195 - Envio de correos a: [GUSINMRO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:01:53 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:01:53 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:01:54 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:01:54 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:01:54 INFO  controlador:44 - Se inicio la obtencion de empresas
+13-02-2019 09:04:36 INFO  Conexion:107 - Obtencion del reporte de medicion
+13-02-2019 09:04:36 INFO  Conexion:108 - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+13-02-2019 09:04:36 INFO  controlador:50 - El numero de registros es mayor al maximo asignado
+13-02-2019 09:04:36 INFO  controlador:149 - Creacion del directorio para cartas: C:UsersJortizDocumentsAMMcartasingeniero_a_cargo = Ing. Luis Alberto Maldonado2019/enero
+13-02-2019 09:04:36 INFO  Conexion:236 - Modificacion de la ruta CARTAS_MEDICION --> C:UsersJortizDocumentsAMMcartasingeniero_a_cargo = Ing. Luis Alberto Maldonado2019/enero
+13-02-2019 09:04:36 INFO  controlador:91 - Agrupacion de registros por empresas
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCCELC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCECEE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOELC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOELG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOELP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOELU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOEND
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOESD
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOGUE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCOMEL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMCUCOE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMECONO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMIONEN
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMMAYEL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMRECGE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de COMSOLGU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISDIEOC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISDIEOR
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMGT
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMGU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMHU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMJA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMJO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMPB
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMQU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMRE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMSC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMSE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMSM
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMSP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEEMZA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEMELG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de DISEMREP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGAAC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGELC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGLAE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGPIN
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGRAL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGROG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRAGROP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRCAURE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRCOAGO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRCOMAP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRCONSM
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRCORAL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRDELAU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRENENA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRENREA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRFINCO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRGASBI
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRGEELP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRGEENP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRGEVEL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRGRUCU
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHICAA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDCH
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDCO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDMA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDMI
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDRA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDRL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDRO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDRX
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDSA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDSD
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIDSM
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIELB
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHIELC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRHISAA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRINDBI
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRMONMA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDROSCAN
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRPAPEL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRPERPF
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRPRSOG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRPUNCI
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRREENP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRREGEN
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRSEAGC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRSERGE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRSIBOS
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRTUNCA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GDRXOLPR
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENACCAG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENAGENA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENAGRPO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENALENR
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENANACA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCAIIP
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCAISA
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCEAIG
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCEGSL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCGESJ
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCINMC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCOELL
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENCONCE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENDEIGC
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENELEGE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENEMGEE
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENENDEO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENESAES
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENESIES
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENFABRI
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENGEELN
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENGENAT
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENGENES
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENGENMO
+13-02-2019 09:04:36 INFO  Conexion:134 - Obtencion del representante de GENGENOC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENGLDEI
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENGRGEO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDCA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDCH
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDCO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDRA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDRO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIDSE
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIHIJ
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIRIV
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIVIA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENHIXAC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINGMA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINGSD
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINGTU
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINGUN
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINVAT
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENINVPA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENJAEGL
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENORTIT
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENORZEL
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENOXECO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENOXEII
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENPANTA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENPILAR
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENPOZVE
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENPUQPL
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENRENAC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENRENGU
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENTACAE
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENTECNO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENTERMI
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENTRAEL
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GENVIEBL
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSAGJIC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSAPTEQ
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSDARSA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSDUEGC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSEMGEE
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSENRSW
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSENTRI
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSGUAMO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSINMRO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSIRTRA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de GUSPAFDG
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRAEMPRR
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRAETCEE
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRARECSA
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRATRELC
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRATRELO
+13-02-2019 09:04:37 INFO  Conexion:134 - Obtencion del representante de TRATRENC
+13-02-2019 09:04:37 INFO  controlador:98 - Llenado de correos por empresas
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 1
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 2
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 3
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 4
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 5
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 6
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 7
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 8
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 9
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 10
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 11
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 12
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 13
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 14
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 15
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 16
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 17
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 18
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 19
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 20
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 21
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 22
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 23
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 24
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 25
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 26
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 27
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 28
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 29
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 30
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 31
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 32
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 33
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 34
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 35
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 36
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 37
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 38
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 39
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 40
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 41
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 42
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 43
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 44
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 45
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 47
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 48
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 49
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 50
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 51
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 52
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 53
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 54
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 55
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 56
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 57
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 58
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 59
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 60
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 61
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 62
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 63
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 64
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 65
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 66
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 67
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 68
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 69
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 70
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 71
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 73
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 74
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 75
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 76
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 77
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 78
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 79
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 80
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 81
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 82
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 83
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 84
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 85
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 86
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 87
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 88
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 89
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 90
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 91
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 92
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 93
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 94
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 95
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 96
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 98
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 99
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 100
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 101
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 102
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 103
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 104
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 105
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 106
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 107
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 108
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 109
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 110
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 111
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 112
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 113
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 114
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 115
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 116
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 117
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 118
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 119
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 120
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 121
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 122
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 123
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 124
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 125
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 126
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 127
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 129
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 130
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 131
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 132
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 133
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 134
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 135
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 136
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 137
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 138
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 139
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 140
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 141
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 143
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 144
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 145
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 146
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 147
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 148
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 149
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 150
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 151
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 152
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 153
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 154
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 155
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 157
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 158
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 159
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 160
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 161
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:04:37 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:04:37 INFO  controlador:109 - Generacion de cartas para: COMCCELC
+13-02-2019 09:04:41 INFO  controlador:109 - Generacion de cartas para: COMCECEE
+13-02-2019 09:04:42 INFO  controlador:109 - Generacion de cartas para: COMCOELC
+13-02-2019 09:04:43 INFO  controlador:109 - Generacion de cartas para: COMCOELG
+13-02-2019 09:04:45 INFO  controlador:109 - Generacion de cartas para: COMCOELP
+13-02-2019 09:04:45 INFO  controlador:109 - Generacion de cartas para: COMCOELU
+13-02-2019 09:04:45 INFO  controlador:109 - Generacion de cartas para: COMCOEND
+13-02-2019 09:04:46 INFO  controlador:109 - Generacion de cartas para: COMCOESD
+13-02-2019 09:04:46 INFO  controlador:109 - Generacion de cartas para: COMCOGUE
+13-02-2019 09:04:46 INFO  controlador:109 - Generacion de cartas para: COMCOMEL
+13-02-2019 09:04:47 INFO  controlador:109 - Generacion de cartas para: COMCUCOE
+13-02-2019 09:04:47 INFO  controlador:109 - Generacion de cartas para: COMECONO
+13-02-2019 09:04:48 INFO  controlador:109 - Generacion de cartas para: COMIONEN
+13-02-2019 09:04:49 INFO  controlador:109 - Generacion de cartas para: COMMAYEL
+13-02-2019 09:04:49 INFO  controlador:109 - Generacion de cartas para: COMRECGE
+13-02-2019 09:04:50 INFO  controlador:109 - Generacion de cartas para: COMSOLGU
+13-02-2019 09:04:50 INFO  controlador:109 - Generacion de cartas para: DISDIEOC
+13-02-2019 09:04:51 INFO  controlador:109 - Generacion de cartas para: DISDIEOR
+13-02-2019 09:04:51 INFO  controlador:109 - Generacion de cartas para: DISEEMGT
+13-02-2019 09:04:51 INFO  controlador:109 - Generacion de cartas para: DISEEMGU
+13-02-2019 09:04:52 INFO  controlador:109 - Generacion de cartas para: DISEEMHU
+13-02-2019 09:04:52 INFO  controlador:109 - Generacion de cartas para: DISEEMJA
+13-02-2019 09:04:52 INFO  controlador:109 - Generacion de cartas para: DISEEMJO
+13-02-2019 09:04:53 INFO  controlador:109 - Generacion de cartas para: DISEEMPB
+13-02-2019 09:04:53 INFO  controlador:109 - Generacion de cartas para: DISEEMQU
+13-02-2019 09:04:53 INFO  controlador:109 - Generacion de cartas para: DISEEMRE
+13-02-2019 09:04:53 INFO  controlador:109 - Generacion de cartas para: DISEEMSC
+13-02-2019 09:04:54 INFO  controlador:109 - Generacion de cartas para: DISEEMSE
+13-02-2019 09:04:54 INFO  controlador:109 - Generacion de cartas para: DISEEMSM
+13-02-2019 09:04:54 INFO  controlador:109 - Generacion de cartas para: DISEEMSP
+13-02-2019 09:04:54 INFO  controlador:109 - Generacion de cartas para: DISEEMZA
+13-02-2019 09:04:54 INFO  controlador:109 - Generacion de cartas para: DISEMELG
+13-02-2019 09:04:55 INFO  controlador:109 - Generacion de cartas para: DISEMREP
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGAAC
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGELC
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGLAE
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGPIN
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGRAL
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGROG
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRAGROP
+13-02-2019 09:04:56 INFO  controlador:109 - Generacion de cartas para: GDRCAURE
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRCOAGO
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRCOMAP
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRCONSM
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRCORAL
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRDELAU
+13-02-2019 09:04:57 INFO  controlador:109 - Generacion de cartas para: GDRENENA
+13-02-2019 09:04:58 INFO  controlador:109 - Generacion de cartas para: GDRENREA
+13-02-2019 09:04:58 INFO  controlador:109 - Generacion de cartas para: GDRFINCO
+13-02-2019 09:04:58 INFO  controlador:109 - Generacion de cartas para: GDRGASBI
+13-02-2019 09:04:58 INFO  controlador:109 - Generacion de cartas para: GDRGEELP
+13-02-2019 09:04:58 INFO  controlador:109 - Generacion de cartas para: GDRGEENP
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRGEVEL
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRGRUCU
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRHICAA
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRHIDCH
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRHIDCO
+13-02-2019 09:04:59 INFO  controlador:109 - Generacion de cartas para: GDRHIDMA
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDMI
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDRA
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDRL
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDRO
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDRX
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDSA
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDSD
+13-02-2019 09:05:00 INFO  controlador:109 - Generacion de cartas para: GDRHIDSM
+13-02-2019 09:05:01 INFO  controlador:109 - Generacion de cartas para: GDRHIELB
+13-02-2019 09:05:01 INFO  controlador:109 - Generacion de cartas para: GDRHIELC
+13-02-2019 09:05:01 INFO  controlador:109 - Generacion de cartas para: GDRHISAA
+13-02-2019 09:05:01 INFO  controlador:109 - Generacion de cartas para: GDRINDBI
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRMONMA
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDROSCAN
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRPAPEL
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRPERPF
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRPRSOG
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRPUNCI
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRREENP
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRREGEN
+13-02-2019 09:05:02 INFO  controlador:109 - Generacion de cartas para: GDRSEAGC
+13-02-2019 09:05:03 INFO  controlador:109 - Generacion de cartas para: GDRSERGE
+13-02-2019 09:05:03 INFO  controlador:109 - Generacion de cartas para: GDRSIBOS
+13-02-2019 09:05:03 INFO  controlador:109 - Generacion de cartas para: GDRTUNCA
+13-02-2019 09:05:03 INFO  controlador:109 - Generacion de cartas para: GDRXOLPR
+13-02-2019 09:05:03 INFO  controlador:109 - Generacion de cartas para: GENACCAG
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENAGENA
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENAGRPO
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENALENR
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENANACA
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENCAIIP
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENCAISA
+13-02-2019 09:05:04 INFO  controlador:109 - Generacion de cartas para: GENCEAIG
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENCEGSL
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENCGESJ
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENCINMC
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENCOELL
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENCONCE
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENDEIGC
+13-02-2019 09:05:05 INFO  controlador:109 - Generacion de cartas para: GENELEGE
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENEMGEE
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENENDEO
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENESAES
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENESIES
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENFABRI
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENGEELN
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENGENAT
+13-02-2019 09:05:06 INFO  controlador:109 - Generacion de cartas para: GENGENES
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENGENMO
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENGENOC
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENGLDEI
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENGRGEO
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDCA
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDCH
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDCO
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDRA
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDRO
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIDSE
+13-02-2019 09:05:07 INFO  controlador:109 - Generacion de cartas para: GENHIHIJ
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENHIRIV
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENHIVIA
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENHIXAC
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENINGMA
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENINGSD
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENINGTU
+13-02-2019 09:05:08 INFO  controlador:109 - Generacion de cartas para: GENINGUN
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENINVAT
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENINVPA
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENJAEGL
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENORTIT
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENORZEL
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENOXECO
+13-02-2019 09:05:09 INFO  controlador:109 - Generacion de cartas para: GENOXEII
+13-02-2019 09:05:10 INFO  controlador:109 - Generacion de cartas para: GENPANTA
+13-02-2019 09:05:10 INFO  controlador:109 - Generacion de cartas para: GENPILAR
+13-02-2019 09:05:10 INFO  controlador:109 - Generacion de cartas para: GENPOZVE
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENPUQPL
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENRENAC
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENRENGU
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENTACAE
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENTECNO
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENTERMI
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENTRAEL
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GENVIEBL
+13-02-2019 09:05:11 INFO  controlador:109 - Generacion de cartas para: GUSAGJIC
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSAPTEQ
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSDARSA
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSDUEGC
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSEMGEE
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSENRSW
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSENTRI
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSGUAMO
+13-02-2019 09:05:12 INFO  controlador:109 - Generacion de cartas para: GUSINMRO
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: GUSIRTRA
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: GUSPAFDG
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: TRAEMPRR
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: TRAETCEE
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: TRARECSA
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: TRATRELC
+13-02-2019 09:05:13 INFO  controlador:109 - Generacion de cartas para: TRATRELO
+13-02-2019 09:05:14 INFO  controlador:109 - Generacion de cartas para: TRATRENC
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCCELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf, GENESAES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOELC.pdf, GENGRGEO.pdf, GENTERMI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOELG.pdf, GDRFINCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOELP.pdf, GENELEGE.pdf, GENGENES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOELU.pdf, GENCGESJ.pdf, GENESIES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOEND.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOESD.pdf, GDRHIDSD.pdf, GENINGSD.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOGUE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCOMEL.pdf, GDRSEAGC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMCUCOE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMECONO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMIONEN.pdf, GENAGRPO.pdf, GENRENAC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMMAYEL.pdf, GDRTUNCA.pdf, GDRXOLPR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMRECGE.pdf, GENGEELN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [COMSOLGU.pdf, GDRENENA.pdf, GDRHIDCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISDIEOC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISDIEOR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISEEMGT.pdf, GENEMGEE.pdf, GENORZEL.pdf, GUSEMGEE.pdf, GUSIRTRA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISEEMGU.pdf, TRAEMPRR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISEEMHU.pdf, TRAETCEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [DISEEMJA.pdf, TRARECSA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGAAC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGLAE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGPIN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGRAL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGROG.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRAGROP.pdf, GDRHIDSM.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRCAURE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRCOAGO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRCOMAP.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRCONSM.pdf, GDRCORAL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRDELAU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRENREA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRGEELP.pdf, GDRGEENP.pdf, GDRGEVEL.pdf, GDRSERGE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRGRUCU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHICAA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDCH.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDMA.pdf, GDRPERPF.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDMI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDRA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDRL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIDRX.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIELB.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHIELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRHISAA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRINDBI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRMONMA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDROSCAN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRPAPEL.pdf, GENPOZVE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRPRSOG.pdf, GENHIDCA.pdf, GENHIDSE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRPUNCI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRREGEN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GDRSIBOS.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENAGENA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENALENR.pdf, GUSAGJIC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENANACA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCAIIP.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCAISA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCEAIG.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCEGSL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCINMC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCOELL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENCONCE.pdf, GENPANTA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENDEIGC.pdf, GENGLDEI.pdf, GUSDUEGC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENENDEO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENFABRI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENGENAT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENGENMO.pdf, GENRENGU.pdf, GENTECNO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENGENOC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIDCH.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIDCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIDRA.pdf, GENHIVIA.pdf, GENOXECO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIDRO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIRIV.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENHIXAC.pdf, GENTRAEL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENINGMA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENINGTU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENINGUN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENINVAT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENINVPA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENJAEGL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENORTIT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENOXEII.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENPUQPL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GENTACAE.pdf, GENVIEBL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSAPTEQ.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSDARSA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSENRSW.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSENTRI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSGUAMO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:05:14 INFO  Conexion:195 - Envio de correos a: [GUSINMRO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:06:50 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:06:50 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:06:51 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:06:51 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:07:27 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:07:27 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:07:28 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:07:28 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:08:41 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:08:41 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:08:41 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:08:41 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:08:41 INFO  controlador:44 - Se inicio la obtencion de empresas
+13-02-2019 09:10:55 INFO  Conexion:107 - Obtencion del reporte de medicion
+13-02-2019 09:10:55 INFO  Conexion:108 - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+13-02-2019 09:10:55 INFO  controlador:50 - El numero de registros es mayor al maximo asignado
+13-02-2019 09:10:55 INFO  controlador:149 - Creacion del directorio para cartas: C:\Users\Jortiz\Documents\AMM\cartas\2019/enero
+13-02-2019 09:10:55 INFO  Conexion:236 - Modificacion de la ruta CARTAS_MEDICION --> C:\Users\Jortiz\Documents\AMM\cartas\2019/enero
+13-02-2019 09:10:55 INFO  controlador:91 - Agrupacion de registros por empresas
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCCELC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCECEE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOELC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOELG
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOELP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOELU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOEND
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOESD
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOGUE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCOMEL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMCUCOE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMECONO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMIONEN
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMMAYEL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMRECGE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de COMSOLGU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISDIEOC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISDIEOR
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMGT
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMGU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMHU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMJA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMJO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMPB
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMQU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMRE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMSC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMSE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMSM
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMSP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEEMZA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEMELG
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de DISEMREP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGAAC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGELC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGLAE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGPIN
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGRAL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGROG
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRAGROP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRCAURE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRCOAGO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRCOMAP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRCONSM
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRCORAL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRDELAU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRENENA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRENREA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRFINCO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRGASBI
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRGEELP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRGEENP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRGEVEL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRGRUCU
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHICAA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDCH
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDCO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDMA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDMI
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDRA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDRL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDRO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDRX
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDSA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDSD
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIDSM
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIELB
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHIELC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRHISAA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRINDBI
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRMONMA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDROSCAN
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRPAPEL
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRPERPF
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRPRSOG
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRPUNCI
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRREENP
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRREGEN
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRSEAGC
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRSERGE
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRSIBOS
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRTUNCA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GDRXOLPR
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GENACCAG
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GENAGENA
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GENAGRPO
+13-02-2019 09:10:55 INFO  Conexion:134 - Obtencion del representante de GENALENR
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENANACA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCAIIP
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCAISA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCEAIG
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCEGSL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCGESJ
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCINMC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCOELL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENCONCE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENDEIGC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENELEGE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENEMGEE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENENDEO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENESAES
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENESIES
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENFABRI
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGEELN
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGENAT
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGENES
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGENMO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGENOC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGLDEI
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENGRGEO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDCA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDCH
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDCO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDRA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDRO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIDSE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIHIJ
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIRIV
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIVIA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENHIXAC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINGMA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINGSD
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINGTU
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINGUN
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINVAT
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENINVPA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENJAEGL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENORTIT
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENORZEL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENOXECO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENOXEII
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENPANTA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENPILAR
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENPOZVE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENPUQPL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENRENAC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENRENGU
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENTACAE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENTECNO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENTERMI
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENTRAEL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GENVIEBL
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSAGJIC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSAPTEQ
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSDARSA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSDUEGC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSEMGEE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSENRSW
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSENTRI
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSGUAMO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSINMRO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSIRTRA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de GUSPAFDG
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRAEMPRR
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRAETCEE
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRARECSA
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRATRELC
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRATRELO
+13-02-2019 09:10:56 INFO  Conexion:134 - Obtencion del representante de TRATRENC
+13-02-2019 09:10:56 INFO  controlador:98 - Llenado de correos por empresas
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 1
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 2
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 3
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 4
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 5
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 6
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 7
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 8
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 9
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 10
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 11
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 12
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 13
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 14
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 15
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 16
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 17
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 18
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 19
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 20
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 21
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 22
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 23
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 24
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 25
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 26
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 27
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 28
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 29
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 30
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 31
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 32
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 33
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 34
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 35
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 36
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 37
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 38
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 39
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 40
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 41
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 42
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 43
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 44
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 45
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 47
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 48
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 49
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 50
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 51
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 52
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 53
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 54
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 55
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 56
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 57
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 58
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 59
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 60
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 61
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 62
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 63
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 64
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 65
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 66
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 67
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 68
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 69
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 70
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 71
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 73
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 74
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 75
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 76
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 77
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 78
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 79
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 80
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 81
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 82
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 83
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 84
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 85
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 86
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 87
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 88
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 89
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 90
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 91
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 92
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 93
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 94
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 95
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 96
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 98
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 99
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 100
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 101
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 102
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 103
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 104
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 105
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 106
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 107
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 108
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 109
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 110
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 111
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 112
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 113
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 114
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 115
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 116
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 117
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 118
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 119
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 120
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 121
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 122
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 123
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 124
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 125
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 126
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 127
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 129
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 130
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 131
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 132
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 133
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 134
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 135
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 136
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 137
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 138
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 139
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 140
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 141
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 143
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 144
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 145
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 146
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 147
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 148
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 149
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 150
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 151
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 152
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 153
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 154
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 155
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 157
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 158
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 159
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 160
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 161
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:10:56 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:10:56 INFO  controlador:109 - Generacion de cartas para: COMCCELC
+13-02-2019 09:10:58 INFO  controlador:109 - Generacion de cartas para: COMCECEE
+13-02-2019 09:10:59 INFO  controlador:109 - Generacion de cartas para: COMCOELC
+13-02-2019 09:11:00 INFO  controlador:109 - Generacion de cartas para: COMCOELG
+13-02-2019 09:11:03 INFO  controlador:109 - Generacion de cartas para: COMCOELP
+13-02-2019 09:11:03 INFO  controlador:109 - Generacion de cartas para: COMCOELU
+13-02-2019 09:11:04 INFO  controlador:109 - Generacion de cartas para: COMCOEND
+13-02-2019 09:11:04 INFO  controlador:109 - Generacion de cartas para: COMCOESD
+13-02-2019 09:11:05 INFO  controlador:109 - Generacion de cartas para: COMCOGUE
+13-02-2019 09:11:05 INFO  controlador:109 - Generacion de cartas para: COMCOMEL
+13-02-2019 09:11:06 INFO  controlador:109 - Generacion de cartas para: COMCUCOE
+13-02-2019 09:11:06 INFO  controlador:109 - Generacion de cartas para: COMECONO
+13-02-2019 09:11:07 INFO  controlador:109 - Generacion de cartas para: COMIONEN
+13-02-2019 09:11:09 INFO  controlador:109 - Generacion de cartas para: COMMAYEL
+13-02-2019 09:11:09 INFO  controlador:109 - Generacion de cartas para: COMRECGE
+13-02-2019 09:11:10 INFO  controlador:109 - Generacion de cartas para: COMSOLGU
+13-02-2019 09:11:10 INFO  controlador:109 - Generacion de cartas para: DISDIEOC
+13-02-2019 09:11:11 INFO  controlador:109 - Generacion de cartas para: DISDIEOR
+13-02-2019 09:11:11 INFO  controlador:109 - Generacion de cartas para: DISEEMGT
+13-02-2019 09:11:11 INFO  controlador:109 - Generacion de cartas para: DISEEMGU
+13-02-2019 09:11:12 INFO  controlador:109 - Generacion de cartas para: DISEEMHU
+13-02-2019 09:11:12 INFO  controlador:109 - Generacion de cartas para: DISEEMJA
+13-02-2019 09:11:12 INFO  controlador:109 - Generacion de cartas para: DISEEMJO
+13-02-2019 09:11:12 INFO  controlador:109 - Generacion de cartas para: DISEEMPB
+13-02-2019 09:11:12 INFO  controlador:109 - Generacion de cartas para: DISEEMQU
+13-02-2019 09:11:13 INFO  controlador:109 - Generacion de cartas para: DISEEMRE
+13-02-2019 09:11:13 INFO  controlador:109 - Generacion de cartas para: DISEEMSC
+13-02-2019 09:11:13 INFO  controlador:109 - Generacion de cartas para: DISEEMSE
+13-02-2019 09:11:13 INFO  controlador:109 - Generacion de cartas para: DISEEMSM
+13-02-2019 09:11:13 INFO  controlador:109 - Generacion de cartas para: DISEEMSP
+13-02-2019 09:11:14 INFO  controlador:109 - Generacion de cartas para: DISEEMZA
+13-02-2019 09:11:14 INFO  controlador:109 - Generacion de cartas para: DISEMELG
+13-02-2019 09:11:15 INFO  controlador:109 - Generacion de cartas para: DISEMREP
+13-02-2019 09:11:15 INFO  controlador:109 - Generacion de cartas para: GDRAGAAC
+13-02-2019 09:11:15 INFO  controlador:109 - Generacion de cartas para: GDRAGELC
+13-02-2019 09:11:15 INFO  controlador:109 - Generacion de cartas para: GDRAGLAE
+13-02-2019 09:11:15 INFO  controlador:109 - Generacion de cartas para: GDRAGPIN
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRAGRAL
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRAGROG
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRAGROP
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRCAURE
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRCOAGO
+13-02-2019 09:11:16 INFO  controlador:109 - Generacion de cartas para: GDRCOMAP
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRCONSM
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRCORAL
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRDELAU
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRENENA
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRENREA
+13-02-2019 09:11:17 INFO  controlador:109 - Generacion de cartas para: GDRFINCO
+13-02-2019 09:11:18 INFO  controlador:109 - Generacion de cartas para: GDRGASBI
+13-02-2019 09:11:18 INFO  controlador:109 - Generacion de cartas para: GDRGEELP
+13-02-2019 09:11:18 INFO  controlador:109 - Generacion de cartas para: GDRGEENP
+13-02-2019 09:11:18 INFO  controlador:109 - Generacion de cartas para: GDRGEVEL
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRGRUCU
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHICAA
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHIDCH
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHIDCO
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHIDMA
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHIDMI
+13-02-2019 09:11:19 INFO  controlador:109 - Generacion de cartas para: GDRHIDRA
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDRL
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDRO
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDRX
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDSA
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDSD
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIDSM
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIELB
+13-02-2019 09:11:20 INFO  controlador:109 - Generacion de cartas para: GDRHIELC
+13-02-2019 09:11:21 INFO  controlador:109 - Generacion de cartas para: GDRHISAA
+13-02-2019 09:11:21 INFO  controlador:109 - Generacion de cartas para: GDRINDBI
+13-02-2019 09:11:21 INFO  controlador:109 - Generacion de cartas para: GDRMONMA
+13-02-2019 09:11:21 INFO  controlador:109 - Generacion de cartas para: GDROSCAN
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRPAPEL
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRPERPF
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRPRSOG
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRPUNCI
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRREENP
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRREGEN
+13-02-2019 09:11:22 INFO  controlador:109 - Generacion de cartas para: GDRSEAGC
+13-02-2019 09:11:23 INFO  controlador:109 - Generacion de cartas para: GDRSERGE
+13-02-2019 09:11:23 INFO  controlador:109 - Generacion de cartas para: GDRSIBOS
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GDRTUNCA
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GDRXOLPR
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GENACCAG
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GENAGENA
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GENAGRPO
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GENALENR
+13-02-2019 09:11:24 INFO  controlador:109 - Generacion de cartas para: GENANACA
+13-02-2019 09:11:25 INFO  controlador:109 - Generacion de cartas para: GENCAIIP
+13-02-2019 09:11:25 INFO  controlador:109 - Generacion de cartas para: GENCAISA
+13-02-2019 09:11:25 INFO  controlador:109 - Generacion de cartas para: GENCEAIG
+13-02-2019 09:11:25 INFO  controlador:109 - Generacion de cartas para: GENCEGSL
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENCGESJ
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENCINMC
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENCOELL
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENCONCE
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENDEIGC
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENELEGE
+13-02-2019 09:11:26 INFO  controlador:109 - Generacion de cartas para: GENEMGEE
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENENDEO
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENESAES
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENESIES
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENFABRI
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENGEELN
+13-02-2019 09:11:27 INFO  controlador:109 - Generacion de cartas para: GENGENAT
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENGENES
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENGENMO
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENGENOC
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENGLDEI
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENGRGEO
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENHIDCA
+13-02-2019 09:11:28 INFO  controlador:109 - Generacion de cartas para: GENHIDCH
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIDCO
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIDRA
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIDRO
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIDSE
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIHIJ
+13-02-2019 09:11:29 INFO  controlador:109 - Generacion de cartas para: GENHIRIV
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENHIVIA
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENHIXAC
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINGMA
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINGSD
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINGTU
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINGUN
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINVAT
+13-02-2019 09:11:30 INFO  controlador:109 - Generacion de cartas para: GENINVPA
+13-02-2019 09:11:31 INFO  controlador:109 - Generacion de cartas para: GENJAEGL
+13-02-2019 09:11:31 INFO  controlador:109 - Generacion de cartas para: GENORTIT
+13-02-2019 09:11:31 INFO  controlador:109 - Generacion de cartas para: GENORZEL
+13-02-2019 09:11:31 INFO  controlador:109 - Generacion de cartas para: GENOXECO
+13-02-2019 09:11:31 INFO  controlador:109 - Generacion de cartas para: GENOXEII
+13-02-2019 09:11:32 INFO  controlador:109 - Generacion de cartas para: GENPANTA
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENPILAR
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENPOZVE
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENPUQPL
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENRENAC
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENRENGU
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENTACAE
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENTECNO
+13-02-2019 09:11:33 INFO  controlador:109 - Generacion de cartas para: GENTERMI
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GENTRAEL
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GENVIEBL
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GUSAGJIC
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GUSAPTEQ
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GUSDARSA
+13-02-2019 09:11:34 INFO  controlador:109 - Generacion de cartas para: GUSDUEGC
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSEMGEE
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSENRSW
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSENTRI
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSGUAMO
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSINMRO
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSIRTRA
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: GUSPAFDG
+13-02-2019 09:11:35 INFO  controlador:109 - Generacion de cartas para: TRAEMPRR
+13-02-2019 09:11:36 INFO  controlador:109 - Generacion de cartas para: TRAETCEE
+13-02-2019 09:11:36 INFO  controlador:109 - Generacion de cartas para: TRARECSA
+13-02-2019 09:11:36 INFO  controlador:109 - Generacion de cartas para: TRATRELC
+13-02-2019 09:11:36 INFO  controlador:109 - Generacion de cartas para: TRATRELO
+13-02-2019 09:11:36 INFO  controlador:109 - Generacion de cartas para: TRATRENC
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCCELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf, GENESAES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCECEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOELC.pdf, GENGRGEO.pdf, GENTERMI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOELG.pdf, GDRFINCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOELP.pdf, GENELEGE.pdf, GENGENES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOELU.pdf, GENCGESJ.pdf, GENESIES.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOEND.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOESD.pdf, GDRHIDSD.pdf, GENINGSD.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOGUE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCOMEL.pdf, GDRSEAGC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMCUCOE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMECONO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMIONEN.pdf, GENAGRPO.pdf, GENRENAC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMMAYEL.pdf, GDRTUNCA.pdf, GDRXOLPR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMRECGE.pdf, GENGEELN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [COMSOLGU.pdf, GDRENENA.pdf, GDRHIDCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISDIEOC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISDIEOR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISEEMGT.pdf, GENEMGEE.pdf, GENORZEL.pdf, GUSEMGEE.pdf, GUSIRTRA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISEEMGU.pdf, TRAEMPRR.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISEEMHU.pdf, TRAETCEE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [DISEEMJA.pdf, TRARECSA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGAAC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGLAE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGPIN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGRAL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGROG.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRAGROP.pdf, GDRHIDSM.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRCAURE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRCOAGO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRCOMAP.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRCONSM.pdf, GDRCORAL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRDELAU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRENREA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRGEELP.pdf, GDRGEENP.pdf, GDRGEVEL.pdf, GDRSERGE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRGRUCU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHICAA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDCH.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDMA.pdf, GDRPERPF.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDMI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDRA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDRL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIDRX.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIELB.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHIELC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRHISAA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRINDBI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRMONMA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDROSCAN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRPAPEL.pdf, GENPOZVE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRPRSOG.pdf, GENHIDCA.pdf, GENHIDSE.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRPUNCI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRREGEN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GDRSIBOS.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENAGENA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENALENR.pdf, GUSAGJIC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENANACA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCAIIP.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCAISA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCEAIG.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCEGSL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCINMC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCOELL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENCONCE.pdf, GENPANTA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENDEIGC.pdf, GENGLDEI.pdf, GUSDUEGC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENENDEO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENFABRI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENGENAT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENGENMO.pdf, GENRENGU.pdf, GENTECNO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENGENOC.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIDCH.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIDCO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIDRA.pdf, GENHIVIA.pdf, GENOXECO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIDRO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIRIV.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENHIXAC.pdf, GENTRAEL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENINGMA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENINGTU.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENINGUN.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENINVAT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENINVPA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENJAEGL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENORTIT.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENOXEII.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENPUQPL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GENTACAE.pdf, GENVIEBL.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSAPTEQ.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSDARSA.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSENRSW.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSENTRI.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSGUAMO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:11:37 INFO  Conexion:195 - Envio de correos a: [GUSINMRO.pdf], <desarrollo.amm@amm.org.gt>
+13-02-2019 09:14:32 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:14:32 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:14:33 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:14:33 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:14:33 INFO  controlador:44 - Se inicio la obtencion de empresas
+13-02-2019 09:17:17 INFO  Conexion:107 - Obtencion del reporte de medicion
+13-02-2019 09:17:17 INFO  Conexion:108 - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+13-02-2019 09:17:17 INFO  controlador:50 - El numero de registros es mayor al maximo asignado
+13-02-2019 09:17:17 INFO  controlador:149 - Creacion del directorio para cartas: C:\Users\Jortiz\Documents\AMM\cartas\2019/enero
+13-02-2019 09:17:17 INFO  Conexion:236 - Modificacion de la ruta CARTAS_MEDICION --> C:\Users\Jortiz\Documents\AMM\cartas\2019/enero
+13-02-2019 09:17:17 INFO  controlador:91 - Agrupacion de registros por empresas
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCCELC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCECEE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOELC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOELG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOELP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOELU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOEND
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOESD
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOGUE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCOMEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMCUCOE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMECONO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMIONEN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMMAYEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMRECGE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de COMSOLGU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISDIEOC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISDIEOR
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMGT
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMGU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMHU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMJA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMJO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMPB
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMQU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMRE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMSC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMSE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMSM
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMSP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEEMZA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEMELG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de DISEMREP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGAAC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGELC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGLAE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGPIN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGRAL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGROG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRAGROP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRCAURE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRCOAGO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRCOMAP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRCONSM
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRCORAL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRDELAU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRENENA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRENREA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRFINCO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRGASBI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRGEELP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRGEENP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRGEVEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRGRUCU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHICAA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDCH
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDCO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDMA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDMI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDRA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDRL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDRO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDRX
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDSA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDSD
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIDSM
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIELB
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHIELC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRHISAA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRINDBI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRMONMA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDROSCAN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRPAPEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRPERPF
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRPRSOG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRPUNCI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRREENP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRREGEN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRSEAGC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRSERGE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRSIBOS
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRTUNCA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GDRXOLPR
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENACCAG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENAGENA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENAGRPO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENALENR
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENANACA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCAIIP
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCAISA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCEAIG
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCEGSL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCGESJ
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCINMC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCOELL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENCONCE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENDEIGC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENELEGE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENEMGEE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENENDEO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENESAES
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENESIES
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENFABRI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGEELN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGENAT
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGENES
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGENMO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGENOC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGLDEI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENGRGEO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDCA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDCH
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDCO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDRA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDRO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIDSE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIHIJ
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIRIV
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIVIA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENHIXAC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINGMA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINGSD
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINGTU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINGUN
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINVAT
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENINVPA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENJAEGL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENORTIT
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENORZEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENOXECO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENOXEII
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENPANTA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENPILAR
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENPOZVE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENPUQPL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENRENAC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENRENGU
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENTACAE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENTECNO
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENTERMI
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENTRAEL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GENVIEBL
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSAGJIC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSAPTEQ
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSDARSA
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSDUEGC
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSEMGEE
+13-02-2019 09:17:17 INFO  Conexion:134 - Obtencion del representante de GUSENRSW
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de GUSENTRI
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de GUSGUAMO
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de GUSINMRO
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de GUSIRTRA
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de GUSPAFDG
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRAEMPRR
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRAETCEE
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRARECSA
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRATRELC
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRATRELO
+13-02-2019 09:17:18 INFO  Conexion:134 - Obtencion del representante de TRATRENC
+13-02-2019 09:17:18 INFO  controlador:98 - Llenado de correos por empresas
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 1
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 2
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 3
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 4
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 5
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 6
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 7
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 8
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 9
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 10
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 11
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 12
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 13
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 14
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 15
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 16
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 17
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 18
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 19
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 20
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 21
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 22
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 23
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 24
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 25
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 26
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 27
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 28
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 29
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 30
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 31
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 32
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 33
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 34
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 35
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 36
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 37
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 38
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 39
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 40
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 41
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 42
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 43
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 44
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 45
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 47
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 48
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 49
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 50
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 51
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 52
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 53
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 54
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 55
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 56
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 57
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 58
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 59
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 60
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 61
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 62
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 63
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 64
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 65
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 66
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 67
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 68
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 69
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 70
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 71
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 73
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 74
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 75
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 76
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 77
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 78
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 79
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 80
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 81
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 82
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 83
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 84
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 85
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 86
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 87
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 88
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 89
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 90
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 91
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 92
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 93
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 94
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 95
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 96
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 98
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 99
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 100
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 101
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 102
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 103
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 104
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 105
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 106
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 107
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 108
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 109
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 110
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 111
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 112
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 113
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 114
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 115
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 116
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 117
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 118
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 119
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 120
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 121
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 122
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 123
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 124
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 125
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 126
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 127
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 129
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 130
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 131
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 132
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 133
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 134
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 135
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 136
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 137
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 138
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 139
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 140
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 141
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 143
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 144
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 145
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 146
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 147
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 148
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 149
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 150
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 151
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 152
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 153
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 154
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 155
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 157
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 158
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 159
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 160
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 161
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:17:18 INFO  Conexion:158 - Obtencion de los correos de 0
+13-02-2019 09:17:18 INFO  controlador:109 - Generacion de cartas para: COMCCELC
+13-02-2019 09:18:59 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:18:59 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:19:00 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:19:00 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:20:57 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:20:57 INFO  Conexion:82 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:20:58 INFO  Conexion:52 - Conectado a Base de Datos
+13-02-2019 09:20:58 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:37:06 INFO  principal:27 - Se inicio el proceso **************REPORTES DE MEDICION**************
+13-02-2019 09:37:06 INFO  Conexion:89 - Carga de los parametros del archivo properties de la BD
+13-02-2019 09:37:07 INFO  Conexion:53 - Conectado a Base de Datos
+13-02-2019 09:37:07 INFO  controlador:32 - Se inicio el controlador
+13-02-2019 09:37:07 INFO  controlador:44 - Se inicio la obtencion de empresas
+13-02-2019 09:39:11 INFO  Conexion:114 - Obtencion del reporte de medicion
+13-02-2019 09:39:11 INFO  Conexion:115 - select * from table (reporte_medicion.consultar_reporte_medicion('01/01/2019', '31/01/2019'))
+13-02-2019 09:39:11 INFO  controlador:50 - El numero de registros es mayor al maximo asignado
+13-02-2019 09:39:11 INFO  controlador:149 - Creacion del directorio para cartas: C:\Users\Jortiz\Documents\AMM\cartas\2019/enero
+13-02-2019 09:40:12 INFO  Conexion:243 - Modificacion de la ruta CARTAS_MEDICION --> C:\Users\Jortiz\Documents\AMM\cartas\2019\enero
+13-02-2019 09:40:12 INFO  controlador:91 - Agrupacion de registros por empresas
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCCELC
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCECEE
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOELC
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOELG
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOELP
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOELU
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOEND
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOESD
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOGUE
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCOMEL
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMCUCOE
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMECONO
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMIONEN
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMMAYEL
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMRECGE
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de COMSOLGU
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISDIEOC
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISDIEOR
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMGT
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMGU
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMHU
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMJA
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMJO
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMPB
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMQU
+13-02-2019 09:40:12 INFO  Conexion:141 - Obtencion del representante de DISEEMRE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEEMSC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEEMSE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEEMSM
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEEMSP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEEMZA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEMELG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de DISEMREP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGAAC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGELC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGLAE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGPIN
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGRAL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGROG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRAGROP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRCAURE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRCOAGO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRCOMAP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRCONSM
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRCORAL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRDELAU
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRENENA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRENREA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRFINCO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRGASBI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRGEELP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRGEENP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRGEVEL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRGRUCU
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHICAA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDCH
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDCO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDMA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDMI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDRA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDRL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDRO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDRX
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDSA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDSD
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIDSM
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIELB
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHIELC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRHISAA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRINDBI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRMONMA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDROSCAN
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRPAPEL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRPERPF
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRPRSOG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRPUNCI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRREENP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRREGEN
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRSEAGC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRSERGE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRSIBOS
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRTUNCA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GDRXOLPR
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENACCAG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENAGENA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENAGRPO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENALENR
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENANACA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCAIIP
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCAISA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCEAIG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCEGSL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCGESJ
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCINMC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCOELL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENCONCE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENDEIGC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENELEGE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENEMGEE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENENDEO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENESAES
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENESIES
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENFABRI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGEELN
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGENAT
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGENES
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGENMO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGENOC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGLDEI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENGRGEO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDCA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDCH
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDCO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDRA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDRO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIDSE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIHIJ
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIRIV
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIVIA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENHIXAC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINGMA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINGSD
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINGTU
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINGUN
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINVAT
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENINVPA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENJAEGL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENORTIT
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENORZEL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENOXECO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENOXEII
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENPANTA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENPILAR
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENPOZVE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENPUQPL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENRENAC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENRENGU
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENTACAE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENTECNO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENTERMI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENTRAEL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GENVIEBL
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSAGJIC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSAPTEQ
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSDARSA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSDUEGC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSEMGEE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSENRSW
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSENTRI
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSGUAMO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSINMRO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSIRTRA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de GUSPAFDG
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRAEMPRR
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRAETCEE
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRARECSA
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRATRELC
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRATRELO
+13-02-2019 09:40:13 INFO  Conexion:141 - Obtencion del representante de TRATRENC
+13-02-2019 09:40:13 INFO  controlador:98 - Llenado de correos por empresas
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 1
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 2
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 3
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 4
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 5
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 6
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 7
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 8
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 9
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 10
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 11
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 12
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 13
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 14
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 15
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 16
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 17
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 18
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 19
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 20
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 21
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 22
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 23
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 24
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 25
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 26
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 27
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 28
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 29
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 30
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 31
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 32
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 33
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 34
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 35
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 36
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 37
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 38
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 39
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 40
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 41
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 42
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 43
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 44
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 45
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 47
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 48
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 49
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 50
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 51
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 52
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 53
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 54
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 55
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 56
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 57
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 58
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 59
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 60
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 61
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 62
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 63
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 64
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 65
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 66
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 67
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 68
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 69
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 70
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 71
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 73
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 74
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 75
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 76
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 77
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 78
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 79
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 80
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 81
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 82
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 83
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 84
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 85
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 86
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 87
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 88
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 89
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 90
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 91
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 92
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 93
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 94
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 95
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 96
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 98
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 99
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 100
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 101
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 102
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 103
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 104
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 105
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 106
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 107
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 108
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 109
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 110
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 111
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 112
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 113
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 114
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 115
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 116
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 117
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 118
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 119
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 120
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 121
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 122
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 123
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 124
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 125
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 126
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 127
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 129
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 130
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 131
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 132
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 133
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 134
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 135
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 136
+13-02-2019 09:40:13 INFO  Conexion:165 - Obtencion de los correos de 137
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 138
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 139
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 140
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 141
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 143
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 144
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 145
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 146
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 147
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 148
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 149
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 150
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 151
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 152
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 153
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 154
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 155
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 157
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 158
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 0
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 159
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 160
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 161
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 0
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 0
+13-02-2019 09:40:14 INFO  Conexion:165 - Obtencion de los correos de 0
+13-02-2019 09:40:14 INFO  controlador:109 - Generacion de cartas para: COMCCELC
+13-02-2019 09:41:03 INFO  controlador:109 - Generacion de cartas para: COMCECEE
+13-02-2019 09:41:05 INFO  controlador:109 - Generacion de cartas para: COMCOELC
+13-02-2019 09:41:05 INFO  controlador:109 - Generacion de cartas para: COMCOELG
+13-02-2019 09:41:08 INFO  controlador:109 - Generacion de cartas para: COMCOELP
+13-02-2019 09:41:09 INFO  controlador:109 - Generacion de cartas para: COMCOELU
+13-02-2019 09:41:09 INFO  controlador:109 - Generacion de cartas para: COMCOEND
+13-02-2019 09:41:10 INFO  controlador:109 - Generacion de cartas para: COMCOESD
+13-02-2019 09:41:10 INFO  controlador:109 - Generacion de cartas para: COMCOGUE
+13-02-2019 09:41:11 INFO  controlador:109 - Generacion de cartas para: COMCOMEL
+13-02-2019 09:41:11 INFO  controlador:109 - Generacion de cartas para: COMCUCOE
+13-02-2019 09:41:11 INFO  controlador:109 - Generacion de cartas para: COMECONO
+13-02-2019 09:41:13 INFO  controlador:109 - Generacion de cartas para: COMIONEN
+13-02-2019 09:41:15 INFO  controlador:109 - Generacion de cartas para: COMMAYEL
+13-02-2019 09:41:15 INFO  controlador:109 - Generacion de cartas para: COMRECGE
+13-02-2019 09:41:16 INFO  controlador:109 - Generacion de cartas para: COMSOLGU
+13-02-2019 09:41:16 INFO  controlador:109 - Generacion de cartas para: DISDIEOC
+13-02-2019 09:41:17 INFO  controlador:109 - Generacion de cartas para: DISDIEOR
+13-02-2019 09:41:17 INFO  controlador:109 - Generacion de cartas para: DISEEMGT
+13-02-2019 09:41:17 INFO  controlador:109 - Generacion de cartas para: DISEEMGU
+13-02-2019 09:41:17 INFO  controlador:109 - Generacion de cartas para: DISEEMHU
+13-02-2019 09:41:17 INFO  controlador:109 - Generacion de cartas para: DISEEMJA
+13-02-2019 09:41:18 INFO  controlador:109 - Generacion de cartas para: DISEEMJO
+13-02-2019 09:41:18 INFO  controlador:109 - Generacion de cartas para: DISEEMPB
+13-02-2019 09:41:18 INFO  controlador:109 - Generacion de cartas para: DISEEMQU
+13-02-2019 09:41:18 INFO  controlador:109 - Generacion de cartas para: DISEEMRE
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEEMSC
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEEMSE
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEEMSM
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEEMSP
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEEMZA
+13-02-2019 09:41:19 INFO  controlador:109 - Generacion de cartas para: DISEMELG
+13-02-2019 09:41:20 INFO  controlador:109 - Generacion de cartas para: DISEMREP
+13-02-2019 09:41:21 INFO  controlador:109 - Generacion de cartas para: GDRAGAAC
+13-02-2019 09:41:21 INFO  controlador:109 - Generacion de cartas para: GDRAGELC
+13-02-2019 09:41:21 INFO  controlador:109 - Generacion de cartas para: GDRAGLAE
+13-02-2019 09:41:21 INFO  controlador:109 - Generacion de cartas para: GDRAGPIN
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRAGRAL
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRAGROG
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRAGROP
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRCAURE
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRCOAGO
+13-02-2019 09:41:22 INFO  controlador:109 - Generacion de cartas para: GDRCOMAP
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRCONSM
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRCORAL
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRDELAU
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRENENA
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRENREA
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRFINCO
+13-02-2019 09:41:23 INFO  controlador:109 - Generacion de cartas para: GDRGASBI
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRGEELP
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRGEENP
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRGEVEL
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRGRUCU
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRHICAA
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRHIDCH
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRHIDCO
+13-02-2019 09:41:24 INFO  controlador:109 - Generacion de cartas para: GDRHIDMA
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDMI
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDRA
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDRL
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDRO
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDRX
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDSA
+13-02-2019 09:41:25 INFO  controlador:109 - Generacion de cartas para: GDRHIDSD
+13-02-2019 09:41:26 INFO  controlador:109 - Generacion de cartas para: GDRHIDSM
+13-02-2019 09:41:26 INFO  controlador:109 - Generacion de cartas para: GDRHIELB
+13-02-2019 09:41:26 INFO  controlador:109 - Generacion de cartas para: GDRHIELC
+13-02-2019 09:41:26 INFO  controlador:109 - Generacion de cartas para: GDRHISAA
+13-02-2019 09:41:26 INFO  controlador:109 - Generacion de cartas para: GDRINDBI
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRMONMA
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDROSCAN
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRPAPEL
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRPERPF
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRPRSOG
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRPUNCI
+13-02-2019 09:41:27 INFO  controlador:109 - Generacion de cartas para: GDRREENP
+13-02-2019 09:41:28 INFO  controlador:109 - Generacion de cartas para: GDRREGEN
+13-02-2019 09:41:28 INFO  controlador:109 - Generacion de cartas para: GDRSEAGC
+13-02-2019 09:41:28 INFO  controlador:109 - Generacion de cartas para: GDRSERGE
+13-02-2019 09:41:28 INFO  controlador:109 - Generacion de cartas para: GDRSIBOS
+13-02-2019 09:41:28 INFO  controlador:109 - Generacion de cartas para: GDRTUNCA
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GDRXOLPR
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GENACCAG
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GENAGENA
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GENAGRPO
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GENALENR
+13-02-2019 09:41:29 INFO  controlador:109 - Generacion de cartas para: GENANACA
+13-02-2019 09:41:30 INFO  controlador:109 - Generacion de cartas para: GENCAIIP
+13-02-2019 09:41:30 INFO  controlador:109 - Generacion de cartas para: GENCAISA
+13-02-2019 09:41:30 INFO  controlador:109 - Generacion de cartas para: GENCEAIG
+13-02-2019 09:41:30 INFO  controlador:109 - Generacion de cartas para: GENCEGSL
+13-02-2019 09:41:31 INFO  controlador:109 - Generacion de cartas para: GENCGESJ
+13-02-2019 09:41:31 INFO  controlador:109 - Generacion de cartas para: GENCINMC
+13-02-2019 09:41:31 INFO  controlador:109 - Generacion de cartas para: GENCOELL
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENCONCE
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENDEIGC
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENELEGE
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENEMGEE
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENENDEO
+13-02-2019 09:41:32 INFO  controlador:109 - Generacion de cartas para: GENESAES
+13-02-2019 09:41:33 INFO  controlador:109 - Generacion de cartas para: GENESIES
+13-02-2019 09:41:33 INFO  controlador:109 - Generacion de cartas para: GENFABRI
+13-02-2019 09:41:33 INFO  controlador:109 - Generacion de cartas para: GENGEELN
+13-02-2019 09:41:33 INFO  controlador:109 - Generacion de cartas para: GENGENAT
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENGENES
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENGENMO
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENGENOC
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENGLDEI
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENGRGEO
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENHIDCA
+13-02-2019 09:41:34 INFO  controlador:109 - Generacion de cartas para: GENHIDCH
+13-02-2019 09:41:35 INFO  controlador:109 - Generacion de cartas para: GENHIDCO
+13-02-2019 09:41:35 INFO  controlador:109 - Generacion de cartas para: GENHIDRA
+13-02-2019 09:41:35 INFO  controlador:109 - Generacion de cartas para: GENHIDRO
+13-02-2019 09:41:35 INFO  controlador:109 - Generacion de cartas para: GENHIDSE
+13-02-2019 09:41:35 INFO  controlador:109 - Generacion de cartas para: GENHIHIJ
+13-02-2019 09:41:36 INFO  controlador:109 - Generacion de cartas para: GENHIRIV
+13-02-2019 09:41:36 INFO  controlador:109 - Generacion de cartas para: GENHIVIA
+13-02-2019 09:41:36 INFO  controlador:109 - Generacion de cartas para: GENHIXAC
+13-02-2019 09:41:36 INFO  controlador:109 - Generacion de cartas para: GENINGMA
+13-02-2019 09:41:36 INFO  controlador:109 - Generacion de cartas para: GENINGSD

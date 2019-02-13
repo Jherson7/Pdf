@@ -32,6 +32,7 @@ public class Conexion {
     public static  int    no_max_medicion;
     public static String nombre_encargado_amm;
     public static String ocupacion_encargado_amm;
+    public static String slash;
     
     static PreparedStatement stament;//variable para realizar inserciones, modificaciones o eliminacion a DB
     static Statement st; //variable para realizar consultas a DB
@@ -78,6 +79,12 @@ public class Conexion {
              no_max_medicion        = Integer.parseInt(prop.getProperty(("no_max_medidores")));
              nombre_encargado_amm   = prop.getProperty("ingeniero_a_cargo");
              ocupacion_encargado_amm = prop.getProperty("ocupacion_ingeniero");
+             
+             
+            if(System.getProperty("os.name").toLowerCase().startsWith("windows"))
+                     slash ="\\";
+            else
+                slash="/";
              
              log.info("Carga de los parametros del archivo properties de la BD");
              
@@ -235,8 +242,9 @@ public class Conexion {
     public static void modificar_registro_temporal(String nueva_ruta){
         log.info("Modificacion de la ruta CARTAS_MEDICION --> "+nueva_ruta);
         try {
-            stament = conn.prepareStatement("create or replace directory  CARTAS_MEDICION AS '/home/oracle/cartas'");
-           
+            
+            //stament = conn.prepareStatement("create or replace directory  CARTAS_MEDICION AS '/home/oracle/cartas'");
+            stament = conn.prepareStatement("create or replace directory  CARTAS_MEDICION AS '"+nueva_ruta+"'");
             stament.execute();
             stament.close();
         } catch (SQLException ex) {
