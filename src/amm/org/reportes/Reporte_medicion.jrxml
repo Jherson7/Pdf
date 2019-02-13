@@ -2,7 +2,7 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Medicion" pageWidth="612" pageHeight="792" columnWidth="572" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="55e41e4e-30f0-4c81-9714-02bae4010fd2">
 	<property name="ireport.zoom" value="0.8250000000000004"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="10"/>
+	<property name="ireport.y" value="394"/>
 	<parameter name="representante" class="java.lang.String"/>
 	<parameter name="empresa" class="java.lang.String"/>
 	<parameter name="contenido_carta" class="java.lang.String"/>
@@ -12,6 +12,8 @@
 		<defaultValueExpression><![CDATA["C:\\Users\\Jortiz\\Documents\\NetBeansProjects\\Reportes medicion\\src\\amm\\org\\reportes\\"]]></defaultValueExpression>
 	</parameter>
 	<parameter name="correlativo" class="java.lang.String"/>
+	<parameter name="ingeniero_a" class="java.lang.String"/>
+	<parameter name="ocupacion" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[select concat(concat(to_char(sysdate,'DD Month'),'de '),(to_char(sysdate,'YYYY'))) as fecha from dual]]>
 	</queryString>
@@ -95,20 +97,6 @@
 				</textElement>
 				<text><![CDATA[Atentamente,]]></text>
 			</staticText>
-			<staticText>
-				<reportElement x="169" y="548" width="207" height="20" uuid="8b2cfc26-0d34-4d95-8c54-80c2d8c7c570"/>
-				<textElement textAlignment="Center">
-					<font fontName="SansSerif" size="11"/>
-				</textElement>
-				<text><![CDATA[Ing. Luis Alberto Maldonado]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="169" y="565" width="207" height="20" uuid="5399e7fd-5770-4017-afe6-6376490c3ef5"/>
-				<textElement textAlignment="Center">
-					<font fontName="SansSerif" size="11" pdfEncoding="Cp1250"/>
-				</textElement>
-				<text><![CDATA[Coordinador de Medición Comercial]]></text>
-			</staticText>
 			<textField>
 				<reportElement x="117" y="85" width="247" height="20" uuid="cb5c771d-ccff-40e3-8536-9a7349107c34"/>
 				<textElement>
@@ -122,6 +110,20 @@
 					<font size="11"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$P{correlativo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="547" width="255" height="20" uuid="5c6c8744-8ad7-4d80-b19c-5140dd4ac61d"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ingeniero_a}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="122" y="564" width="297" height="20" uuid="e5ac74c2-fb8e-482f-bf51-a90c7f5317fd"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{ocupacion}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

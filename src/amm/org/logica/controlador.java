@@ -1,5 +1,6 @@
 package amm.org.logica;
 
+import amm.org.beans.correo;
 import amm.org.beans.empresa;
 import amm.org.beans.objeto_reporte;
 import amm.org.db.Conexion;
@@ -21,11 +22,13 @@ public class controlador {
     private String anio_medicion;
     private String fecha_inicio;
     private String fecha_fin;
+    public LinkedList<correo> lista_correos;
     
     private static final Logger log = Logger.getLogger(controlador.class);
     
     public controlador() {
         this.listado_empresas = new LinkedList<>();
+        this.lista_correos = new LinkedList<>();
         log.info("Se inicio el controlador");
     }
 
@@ -94,7 +97,9 @@ public class controlador {
     private void llenar_correos_empresas(LinkedList<empresa> listado_empresas) {
         log.info("Llenado de correos por empresas");
         for(empresa a: listado_empresas){
-            a.setCorreos(Conexion.get_correos_representantes(a.getCod_rep()));
+            LinkedList<String> lista_correos = Conexion.get_correos_representantes(a.getCod_rep());
+            for(String email : lista_correos)
+                llenar_correo(email,a.getEmpresa());
         }
     }
 
@@ -105,8 +110,7 @@ public class controlador {
             insertar_registros_temporales(a.getRegistros());
             ManejadorReportes.generar_carta(this.correlativo,"Sin definir",a.empresa,this.mes_medicion,this.anio_medicion,this.fecha_inicio, this.fecha_fin);
             Conexion.limpiar_temp();
-            System.out.println("-------------------JE-------------------");
-            //generar_carta_
+            ////generar_carta_
             //eliminar_registros
         }
     }
@@ -118,17 +122,27 @@ public class controlador {
     }
     
     private void enviar_cartas_empresas(LinkedList<empresa> listado_empresas) {
-         for(empresa a: listado_empresas){
+           
+            for(correo aux: lista_correos){
+                String archivos ="";
+                for(String carta:aux.cartas)
+                    archivos = archivos.equals("")?carta:archivos+";"+carta;
+            
+            Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", "test.pdf",aux.cartas.toString());
+           // Conexion.enviar_correos("Direccion de correo destino","mensaje", archivos,aux.cartas.toString());
+           
+            }
+        /*for(empresa a: listado_empresas){
              String correos ="";
              for(String correo : a.getCorreos()){
                  if(correos.equals(""))
                      correos=correo;
                  else
                     correos+=";"+correo;
-             }
-             System.out.println(correos);
-             Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", "test.pdf",a.empresa);
-         }
+             }*/
+             //System.out.println(correos);
+             //Conexion.enviar_correos("desarrollo.amm@amm.org.gt","prueba papa", "test.pdf",a.empresa);
+         //}
     }
 
     private void crear_directorio_cartas(String anio_med, String mes_med) {
@@ -147,8 +161,27 @@ public class controlador {
             }
         }
         
-        Conexion.ruta_cartas=ruta_+"/";//cambio la ruta para que ahi se guarden todas las cartas
+        Conexion.ruta_cartas=ruta_;//+"/";//cambio la ruta para que ahi se guarden todas las cartas
         Conexion.modificar_registro_temporal(Conexion.ruta_cartas);
+    }
+
+    private void llenar_correo(String email, String empresa) {
+        correo aux = null;
+        
+        if(email.equals(""))
+            return;
+        for(correo a: lista_correos){
+            if(a.direccion.equalsIgnoreCase(email)){
+                aux= a;
+                break;
+            }
+        }
+        
+        if(aux==null){
+            lista_correos.add(new correo(email, empresa+".pdf"));
+        }else{
+            aux.cartas.add(empresa+".pdf");
+        }
     }
 
 }

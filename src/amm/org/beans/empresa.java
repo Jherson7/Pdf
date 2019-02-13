@@ -10,14 +10,14 @@ public class empresa {
     public String empresa;
     String representante;
     int    cod_rep;
-    LinkedList<String>correos;
+   // LinkedList<String>correos;
     public LinkedList<objeto_reporte> registros;
 
     public empresa(String codigo) {
         this.empresa= codigo;
         this.representante ="";
         this.registros = new  LinkedList<>();
-        this.correos = new LinkedList<>();
+        //this.correos = new LinkedList<>();
     }
 
     public int getCod_rep() {
@@ -44,13 +44,14 @@ public class empresa {
         this.representante = representante;
     }
 
+    /*
     public LinkedList<String> getCorreos() {
         return correos;
     }
 
     public void setCorreos(LinkedList<String> correos) {
         this.correos = correos;
-    }
+    }*/
 
     public LinkedList<objeto_reporte> getRegistros() {
         return registros;
@@ -62,7 +63,7 @@ public class empresa {
 
     @Override
     public String toString() {
-        return "empresa{" + "empresa=" + empresa + ", representante=" + representante + ", cod_rep=" + cod_rep +", correos="+ correos+'}';
+        return empresa + ", " + representante;
     }
     
     

@@ -30,6 +30,8 @@ public class Conexion {
     public static  String ruta_cartas;
     public static  String correo_amm;
     public static  int    no_max_medicion;
+    public static String nombre_encargado_amm;
+    public static String ocupacion_encargado_amm;
     
     static PreparedStatement stament;//variable para realizar inserciones, modificaciones o eliminacion a DB
     static Statement st; //variable para realizar consultas a DB
@@ -67,13 +69,15 @@ public class Conexion {
             InputStream input = new FileInputStream("src/db_connection.properties");
             prop.load(input);
             
-             driver             = prop.getProperty(("driver"));
-             user               = prop.getProperty("user");
-             url                = prop.getProperty("url");
-             pass               = prop.getProperty(("pass"));
-             ruta_cartas        = prop.getProperty(("ruta_cartas"));
-             correo_amm         = prop.getProperty(("correo_medicion"));
-             no_max_medicion    = Integer.parseInt(prop.getProperty(("no_max_medidores")));
+             driver                 = prop.getProperty("driver");
+             user                   = prop.getProperty("user");
+             url                    = prop.getProperty("url");
+             pass                   = prop.getProperty(("pass"));
+             ruta_cartas            = prop.getProperty("ruta_cartas");
+             correo_amm             = prop.getProperty("correo_medicion");
+             no_max_medicion        = Integer.parseInt(prop.getProperty(("no_max_medidores")));
+             nombre_encargado_amm   = prop.getProperty("ingeniero_a_cargo");
+             ocupacion_encargado_amm = prop.getProperty("ocupacion_ingeniero");
              
              log.info("Carga de los parametros del archivo properties de la BD");
              
@@ -87,7 +91,7 @@ public class Conexion {
             String query = "select * from table (reporte_medicion.consultar_reporte_medicion('"+inicio+"', '"+fin+"'))";
                      
             st = conn.createStatement();
-            System.out.println(query);
+          //  System.out.println(query);
             ResultSet rs = st.executeQuery(query);
 
             LinkedList<objeto_reporte> result = new LinkedList();
@@ -121,13 +125,12 @@ public class Conexion {
            // System.out.println(query);
             ResultSet rs = st.executeQuery(query);
 
-
             if (rs.next()) {
                 //System.out.println(resultSet.getString(1));
                 emp.setRepresentante(rs.getString(1));
                 emp.setCod_rep(rs.getInt(2));
-              
             }
+            
             log.info("Obtencion del representante de "+codigo);
             st.close();
         } catch (Exception e) {
@@ -142,7 +145,7 @@ public class Conexion {
             String query = "select * from table (reporte_medicion.obtener_correos_medicion("+id_rep+"))";
                      
             st = conn.createStatement();
-            System.out.println(query);
+           // System.out.println(query);
             ResultSet rs = st.executeQuery(query);
 
             LinkedList<String> result = new LinkedList();
@@ -197,7 +200,7 @@ public class Conexion {
                             " amm.p_sendmailattach(\n" +
                             "'"+correos+"',\n" +
                             "NULL,\n" +
-                            "'correo de medicion'     ,\n" +
+                            "'correo de medicion'     ,\n" +//asunto
                             "'"+mensaje+"'              ,\n" +
                             "'"+archivo+"'\n" +
                             ");\n" +
@@ -244,7 +247,7 @@ public class Conexion {
         }
     }
     
-     private static void imprimir_temp() {
+    private static void imprimir_temp() {
         try {
             String query = "select * from temp_reportes_medicion";
                      

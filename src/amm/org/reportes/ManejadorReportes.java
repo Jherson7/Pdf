@@ -2,6 +2,7 @@ package amm.org.reportes;
 
 import amm.org.db.Conexion;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -26,8 +27,12 @@ public class ManejadorReportes {
     
     static Connection connection;//variable para poder conectarse a la DB 
     
+    /*
     private final static String ruta_logo ="/amm/org/reportes/Logo.jpg";
     private final static String firma ="/amm/org/reportes/Firma.jpg";
+    */
+    private final static String ruta_logo ="src/pictures/Logo.jpg";
+    private final static String firma ="src/pictures/Firma.jpg";
     
     private static String contenido=""//contenido de la carta
             + "Conforme el apartado 14.10 de la NCC-14, adjunto a la presente se remite "
@@ -54,12 +59,12 @@ public class ManejadorReportes {
     
     /**
      * @param correlativo para generar la carta
-     * @param mes (nombre) de generacion
-     * @param a quien va dirigida la carta
+     * @param representante
      * @param empresa para quien labora
-     * @param contenido de la carta debe estar en html
      * @param mes_medicion que se realizo la medicion del script
      * @param anio_medicion que se realizo la medicion del script
+     * @param fecha_ini
+     * @param fecha_fin
      */
     public static void generar_carta(String correlativo,String representante, String empresa,
             String mes_medicion,String anio_medicion,String fecha_ini,String fecha_fin)
@@ -69,8 +74,6 @@ public class ManejadorReportes {
         contenido =contenido.replaceAll("year", anio_medicion);//se reemplaza por el año de reporte
         
         try {
-            
-            
             JasperReport  jr= (JasperReport) JRLoader.
                    loadObject(ManejadorReportes.
                            class.getResourceAsStream("/amm/org/reportes/Reporte_medicion.jasper"));
@@ -79,15 +82,18 @@ public class ManejadorReportes {
             
             Map parametros = new HashMap();
             parametros.put("correlativo", correlativo);
-            //parametros.put("mes", mes);
-            //parametros.put("anio", anio);
             parametros.put("representante", representante);
             parametros.put("empresa", empresa);
             parametros.put("contenido_carta", contenido);
-            parametros.put("logo", ManejadorReportes.
+            /*parametros.put("logo", ManejadorReportes.
                            class.getResourceAsStream(ruta_logo));
-            parametros.put("firma", ManejadorReportes.
+              parametros.put("firma", ManejadorReportes.
                            class.getResourceAsStream(firma));
+            */
+             parametros.put("logo", new FileInputStream(ruta_logo));
+             parametros.put("firma", new FileInputStream(firma));
+             parametros.put("ingeniero_a", Conexion.nombre_encargado_amm);
+             parametros.put("ocupacion", Conexion.ocupacion_encargado_amm);
             
             JasperPrint jp;
             jp = JasperFillManager.fillReport(jr, parametros, connection);
@@ -100,7 +106,6 @@ public class ManejadorReportes {
             /*JasperViewer visor = new JasperViewer(jp,false);
             visor.setTitle("Carta de medicion");
             visor.setVisible(true);*/
-           
             
         } catch (Exception e) {
             System.out.println("Hubo un error pero podemos continuar :D");
@@ -138,8 +143,7 @@ public class ManejadorReportes {
             parametros.put("agente", empresa);
             parametros.put("fecha_ini", fecha_ini);
             parametros.put("fecha_fin", fecha_fin);
-            parametros.put("img", ManejadorReportes.
-                    class.getResourceAsStream("/amm/org/reportes/logo.png"));
+            parametros.put("img", new FileInputStream("src/pictures/logo.png"));
 
             JasperPrint jp;
             jp = JasperFillManager.fillReport(jr, parametros, connection);
@@ -156,6 +160,8 @@ public class ManejadorReportes {
         } catch (JRException ex) {
             System.out.println("Hubo un error pero podemos continuar :D");
             //Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(ManejadorReportes.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     

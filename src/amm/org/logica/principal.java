@@ -1,5 +1,6 @@
-package amm.org.db;
+package amm.org.logica;
 
+import amm.org.db.Conexion;
 import amm.org.logica.controlador;
 import amm.org.reportes.ManejadorReportes;
 import java.sql.Connection;
@@ -13,6 +14,7 @@ import org.apache.log4j.Logger;
  *
  * @author Jherson Sazo
  */
+
 public class principal {
 
     private static final Logger log = Logger.getLogger(principal.class);
@@ -99,7 +101,5 @@ public class principal {
         String []fechas = {sdf.format(today),sdf.format(lastDayOfMonth)};
         
         return fechas;
-        
     }
-    
 }
